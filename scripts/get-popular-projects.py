@@ -1,4 +1,4 @@
-from util import extract_repo_url, get_scm_command, run_scm_command, api_constructor, make_github_request
+from util import extract_repo_url, get_command, run_command, api_constructor, make_github_request
 import os
 import requests
 
@@ -77,9 +77,9 @@ def get_first_n_with_github_scm(pm, n=50):
   for package, dependents in all_packages:
     print(f"Checking {package} with {dependents} dependents")
     # Get the scm command for the package
-    command = get_scm_command(pm, package)
+    command = get_command(pm, package, "scm")
     # Run the command and get the output
-    output = run_scm_command(pm, command)
+    output = run_command(pm, command, "scm")
     if not output:
       print(f"Error running command {command} for package {package}")
       continue
@@ -90,12 +90,21 @@ def get_first_n_with_github_scm(pm, n=50):
     if any(msg in extract_message for msg in ["Could not find repository", "Not a GitHub repository"]):
       continue
     print(f"Found {package} with {dependents} dependents and url {url}")
+    print(f"Now checking for version -- will try and get the latest published at the registry")
+    command = get_command(pm, package, "version")
+    output = run_command(pm, command, "version")
+    if not output:
+      print(f"Error running command {command} for package {package}")
+      continue
+    version = output.strip()
+    print(f"Found latest version {version} for package {package}")
+
     data = make_github_request(repo_api)
     if data is None:
       continue
 
     # At this point, it will be a github url
-    n_packages.append((package, dependents, url))
+    n_packages.append((package, version, dependents, url))
     found_github += 1
 
     if found_github >= n:
@@ -107,14 +116,15 @@ def get_first_n_with_github_scm(pm, n=50):
 
 if __name__ == "__main__":
   n = 50
-  for pm in ["npm", "maven"]:
+  # for pm in ["npm", "maven"]:
+  for pm in ["maven"]:
     print(f"Getting top {n} packages for {pm} with github scm")
     packages = get_first_n_with_github_scm(pm, n=n)
-    for package, dependents, url in packages:
-      print(f"{package} ({dependents} dependents) - {url}")
+    for package, version, dependents, url in packages:
+      print(f"{package}@{version} ({dependents} dependents) - {url}")
     
     # Also pasting into file titled {pm}-top-25.txt
     with open(f"popular-projects/{pm}-top-{n}.txt", "w") as f:
-      for package, dependents, url in packages:
-        f.write(f"{package} ({dependents} dependents) - {url}\n")
+      for package, version, dependents, url in packages:
+        f.write(f"{package}@{version} ({dependents} dependents) - {url}\n")
     print(f"Saved top {n} packages for {pm} with github scm to {pm}-top-{n}.txt")

@@ -48,18 +48,19 @@ def extract_repo_url(repo_info: str) -> str:
     return joined, "GitHub repository"
 
 
-def get_scm_command(pm: str, package: str) -> List[str]:
+def get_command(pm: str, package: str, purpose: str = "scm") -> List[str]:
     """Get the appropriate command to find a package's source code locations for the package manager."""
+    js_info = "version" if purpose == "version" else "repository.url"
     if pm == "yarn-berry" or pm == "yarn-classic":
-        return ["yarn", "info", package.replace("@npm:", "@"), "repository.url", "--silent"]
+        return ["yarn", "info", package.replace("@npm:", "@"), js_info, "--silent"]
     elif pm == "pnpm":
         # for cases like @babel/helper-create-class-features-plugin@7.25.9(@babel/core@7.26.10),
         # we look for the repository of the package inside parentheses
         if "(" in package:
             package = package.split("(")[1].split(")")[0]
-        return ["pnpm", "info", package.replace("@npm:", "@"), "repository.url"]
+        return ["pnpm", "info", package.replace("@npm:", "@"), js_info]
     elif pm == "npm":
-        return ["npm", "info", package.replace("@npm:", "@"), "repository.url"]
+        return ["npm", "info", package.replace("@npm:", "@"), js_info]
     elif pm == "maven":
         group_id, artifact_id = package.split(":")
         return [
@@ -73,7 +74,7 @@ def get_scm_command(pm: str, package: str) -> List[str]:
     raise ValueError(f"Unsupported package manager: {pm}")
 
 
-def run_scm_command(pm, command):
+def run_command(pm, command, purpose="scm"):
     def run_npm_command(command):
         try:
             result = subprocess.run(
@@ -110,6 +111,8 @@ def run_scm_command(pm, command):
                     parsed_content.get("project", {}).get("scm", {}).get("connection", ""),
                     parsed_content.get("project", {}).get("scm", {}).get("developerConnection", ""),
                     parsed_content.get("project", {}).get("url", ""),
+                ] if purpose == "scm" else [
+                    parsed_content.get("project", {}).get("version", ""),
                 ]
                 return next((loc for loc in locations if loc), None)
 
