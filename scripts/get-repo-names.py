@@ -14,7 +14,7 @@ if __name__ == "__main__":
         if "github.com/" in line:
           parts = line.split(" - ")
           repo_part = parts[-1].split("github.com/")[-1]
-          version_part = line.split("@")[1].split(" ")[0] if "@" in line else "unknown"
+          version_part = line.split("@", 2)[-1].split(" ")[0] if "@" in line else "unknown"
           processed_lines.append(f"{repo_part}@{version_part}")
       # remove duplicates
       processed_lines = list(set(processed_lines))
