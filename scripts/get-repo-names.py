@@ -8,15 +8,21 @@ if __name__ == "__main__":
       lines = f.readlines()
       # remove new line characters
       lines = [line.strip() for line in lines]
-      # get everything after github.com/ : github.com/owner/repo
-      lines = [line.split("github.com/")[-1] for line in lines]
+      # extract version and github.com/owner/repo
+      processed_lines = []
+      for line in lines:
+        if "github.com/" in line:
+          parts = line.split(" - ")
+          repo_part = parts[-1].split("github.com/")[-1]
+          version_part = line.split("@")[1].split(" ")[0] if "@" in line else "unknown"
+          processed_lines.append(f"{repo_part}@{version_part}")
       # remove duplicates
-      lines = list(set(lines))
+      processed_lines = list(set(processed_lines))
       # remove empty lines
-      lines = [line for line in lines if line]
+      processed_lines = [line for line in processed_lines if line]
 
     # write to file
     with open(target_filename, "w") as f:
-      for line in lines:
+      for line in processed_lines:
         f.write(f"{line}\n")
     print(f"Saved top {n} packages for {pm} with github scm to {target_filename}")
