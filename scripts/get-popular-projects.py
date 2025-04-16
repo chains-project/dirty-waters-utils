@@ -1,4 +1,4 @@
-from util import extract_repo_url, get_command, run_command, api_constructor, make_github_request
+from util import extract_repo_url, get_command, run_command, api_constructor, make_github_request, check_source_code_by_version
 import os
 import requests
 
@@ -104,6 +104,20 @@ def get_first_n_with_github_scm(pm, n=50):
       continue
 
     # At this point, it will be a github url
+    print(f"Checking if there's a tag or SHA we can use")
+    repo_link = f"https://github.com/{simplified_path}".lower()
+    source_code_info = check_source_code_by_version(
+      package, version, repo_api, repo_link, simplified_path, pm
+    )
+    if not source_code_info.get("exists", False):
+      print(f"Package {package} with version {version} does not exist in the repository")
+      continue
+    elif source_code_info.get("is_sha", False):
+      print(f"Package {package} with version {version} is a hash")
+      version = source_code_info.get("sha", version)
+    else:
+      version = source_code_info.get("url", version).split("tags/")[-1]
+      print(f"Package {package} with version {version} is a tag")
     n_packages.append((package, version, dependents, url))
     found_github += 1
 
@@ -116,8 +130,8 @@ def get_first_n_with_github_scm(pm, n=50):
 
 if __name__ == "__main__":
   n = 50
-  # for pm in ["npm", "maven"]:
-  for pm in ["maven"]:
+  for pm in ["npm", "maven"]:
+  # for pm in ["maven"]:
     print(f"Getting top {n} packages for {pm} with github scm")
     packages = get_first_n_with_github_scm(pm, n=n)
     for package, version, dependents, url in packages:

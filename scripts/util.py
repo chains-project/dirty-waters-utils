@@ -131,6 +131,175 @@ def run_command(pm, command, purpose="scm"):
         return run_maven_command(command)
     raise ValueError(f"Unsupported package manager: {pm}")
 
+def construct_tag_format(tag, package_name, repo_name):
+    _, repo_name = repo_name.split("/")  # splits owner and repo name
+    project_name = repo_name.split("-")[-1]  # deals with lots of maven-<project_name> repos (e.g., surefire, etc)
+    tag_formats = set(
+        [
+            f"{tag}",
+            f"v{tag}",
+            f"v_{tag}",
+            f"r{tag}",
+            f"release-{tag}",
+            f"parent-{tag}",
+            # Below: further tag formats found in the AROMA paper, table 3: https://dl.acm.org/doi/pdf/10.1145/3643764
+            f"release/{tag}",
+            f"{tag}-release",
+            f"v.{tag}",
+        ]
+        + [
+            f"{name}{suffix}"
+            for name in [package_name, repo_name, project_name]
+            for suffix in [f"@{tag}", f"-v{tag}", f"_v{tag}", f"-{tag}", f"_{tag}"]
+        ]
+    )
+
+    only_package_name, artifact_id_parts = None, None
+    if "/" in package_name:  # NPM-based
+        only_package_name = package_name.split("/")[1]
+    elif ":" in package_name:  # Maven based
+        only_package_name = package_name.split(":")[1].split("@")[0]
+        # p1, p2, p3 from AROMA
+        artifact_id_parts = only_package_name.split("-")
+
+    if only_package_name:
+        tag_formats.add(f"{only_package_name}@{tag}")
+        tag_formats.add(f"{only_package_name}-v{tag}")
+        tag_formats.add(f"{only_package_name}-{tag}")
+        tag_formats.add(f"{only_package_name}_{tag}")
+    if artifact_id_parts and len(artifact_id_parts) > 1:
+        # p1, p2, p3 from AROMA
+        # needs to be reversed with [::-1] because p1 is actually the last element, p2 the 2nd to last, etc
+        tag_formats.update(["-".join(artifact_id_parts[::-1][: i + 1]) + tag for i in range(len(artifact_id_parts))])
+
+    return tag_formats
+
+
+def find_existing_tags_batch(tag_formats, repo_name):
+    # Get all tags in one request; MAY FAIL if the repo has too many tags
+    tags_url = f"https://api.github.com/repos/{repo_name}/git/refs/tags"
+    response = make_github_request(tags_url)
+
+    if not response:
+        return []
+    elif response == 504:
+        for tag_format in tag_formats:
+            response = make_github_request(f"{tags_url}/{tag_format}")
+            if response:
+                return [tag_format]
+        return []
+
+    # Create a map of all tags
+    all_tags = {ref["ref"].replace("refs/tags/", ""): ref for ref in response}
+
+    # Find the matching tag formats
+    matching_tags = []
+    for tag_format in tag_formats:
+        if tag_format in all_tags:
+            matching_tags.append(tag_format)
+
+    return matching_tags if matching_tags else []
+
+
+def check_source_code_by_version(package_name, version, repo_api, repo_link, simplified_path, package_manager):
+    def check_git_head_presence(package_name, version):
+        # In NPM-based packages, the registry may contain a gitHead field in the package's metadata
+        # Although it's not mandatory to have it, if it's present, it's the best way to check
+        # the package's source code for the specific version
+        try:
+            response = requests.get(f"https://registry.npmjs.org/{package_name}/{version}", timeout=20)
+            response.raise_for_status()
+            data = response.json()
+            git_head = data.get("gitHead", "")
+            return git_head
+        except requests.RequestException as e:
+            logging.error(f"Error checking gitHead presence: {str(e)}")
+            return False
+
+    source_code_info = {
+        "exists": False,
+        "tag_version": version,
+        "is_sha": False,
+        "sha": None,
+        "url": None,
+        "message": "No tags found in the repo",
+        "status_code": 404,
+    }
+    if package_manager in ["yarn-berry", "yarn-classic", "pnpm", "npm"]:
+        if git_head := check_git_head_presence(package_name, version):
+            try:
+                response = make_github_request(f"{repo_api}/commits/{git_head}", max_retries=2)
+                if response:
+                    logging.info(f"gitHead {git_head} found in {repo_link}")
+                    return {
+                        "exists": True,
+                        "tag_version": version,
+                        "is_sha": True,
+                        "sha": git_head,
+                        "url": None,
+                        "message": "gitHead found in package metadata",
+                        "status_code": 200,
+                    }
+                else:
+                    logging.warning(f"gitHead {git_head} not found in {repo_link}, checking tags")
+                    source_code_info = {
+                        "exists": False,
+                        "tag_version": version,
+                        "is_sha": True,
+                        "sha": git_head,
+                        "url": None,
+                        "message": f"gitHead {git_head} not found in {repo_link}",
+                        "status_code": 404,
+                    }
+            except Exception as e:
+                logging.error(f"Error checking gitHead in repo: {str(e)}")
+        else:
+            logging.warning(f"gitHead not found in {package_name} {version} metadata")
+    else:
+        logging.warning(
+            f"Package manager {package_manager} not supported for gitHead checking, will proceed with tags"
+        )
+
+    have_no_tags_check_api = f"{repo_api}/tags"
+    have_no_tags_response = requests.get(have_no_tags_check_api, headers=headers)
+    have_no_tags_response_status_code = have_no_tags_response.status_code
+    have_no_tags_data = have_no_tags_response.json()
+
+    release_tag_exists = False
+    if len(have_no_tags_data) == 0:
+        logging.warning(f"No tags found for {package_name} in {repo_api}")
+        release_tag_url = None
+        message = "No tags found in the repo"
+        status_code_release_tag = have_no_tags_response_status_code
+    else:
+        tag_possible_formats = construct_tag_format(version, package_name, repo_name=simplified_path)
+        existing_tag_format = find_existing_tags_batch(tag_possible_formats, simplified_path)
+        logging.info(f"Existing tag format: {existing_tag_format}")
+        if existing_tag_format:
+            existing_tag_format = existing_tag_format[0]
+            release_tag_exists = True
+            release_tag_url = f"{repo_api}/git/ref/tags/{existing_tag_format}"
+            message = f"Tag {existing_tag_format} is found in the repo"
+            status_code_release_tag = 200
+        else:
+            logging.warning(f"Tag {version} not found in {repo_api}")
+            release_tag_url = None
+            message = f"Tag {version} not found in the repo"
+            status_code_release_tag = 404
+
+    source_code_info.update(
+        {
+            "exists": release_tag_exists,
+            "tag_version": version,
+            "url": release_tag_url,
+            "message": message,
+            "status_code": status_code_release_tag,
+        }
+    )
+
+    return source_code_info
+
+
 def api_constructor(package_name, repository):
     repo_url = repository.replace("https://", "").replace("http://", "").replace("/issues", "")
 
