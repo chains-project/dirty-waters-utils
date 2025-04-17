@@ -118,6 +118,21 @@ def get_first_n_with_github_scm(pm, n=50):
     else:
       version = source_code_info.get("url", version).split("tags/")[-1]
       print(f"Package {package} with version {version} is a tag")
+
+    # Checking if they have a package-lock.json or pom.xml
+    print(f"Checking if {'package-lock.json' if pm == 'npm' else 'pom.xml'} exists in the repo")
+    if pm == "npm":
+      check_file = "package-lock.json"
+    else:
+      check_file = "pom.xml"
+    file_url = f"https://raw.githubusercontent.com/{simplified_path}/{version}/{check_file}"
+    print(f"Checking for file URL: {file_url}")
+    response = requests.get(file_url)
+    if response.status_code != 200:
+      print(f"File {check_file} does not exist in the repo")
+      continue
+    print(f"File {check_file} exists in the repo")
+
     n_packages.append((package, version, dependents, url))
     found_github += 1
 
