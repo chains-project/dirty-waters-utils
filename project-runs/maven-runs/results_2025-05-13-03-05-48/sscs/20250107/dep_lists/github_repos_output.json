@@ -1,0 +1,1844 @@
+{
+  "org.apache.maven.plugins:maven-source-plugin@3.3.0": {
+    "url": "github.com/apache/maven-source-plugin",
+    "parent": "org.apache.maven.plugins:maven-source-plugin@3.3.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-archiver@3.6.0": {
+    "url": "github.com/apache/maven-archiver",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-io@3.4.0": {
+    "url": "github.com/codehaus-plexus/plexus-io",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-interpolation@1.26": {
+    "url": "github.com/codehaus-plexus/plexus-interpolation",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-archiver@4.7.1": {
+    "url": "github.com/codehaus-plexus/plexus-archiver",
+    "parent": "org.apache.maven.plugins:maven-source-plugin@3.3.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "javax.inject:javax.inject@1": {
+    "url": "http://code.google.com/p/atinject/source/checkout",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-io:commons-io@2.11.0": {
+    "url": "github.com/apache/commons-io",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.commons:commons-compress@1.23.0": {
+    "url": "github.com/apache/commons-compress",
+    "parent": "org.apache.maven.plugins:maven-source-plugin@3.3.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.slf4j:slf4j-api@1.7.36": {
+    "url": "github.com/qos-ch/slf4j",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.iq80.snappy:snappy@0.4": {
+    "url": "github.com/dain/snapy",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.tukaani:xz@1.9": {
+    "url": "https://git.tukaani.org/?p=xz-java.git",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.github.luben:zstd-jni@1.5.5-2": {
+    "url": "github.com/luben/zstd-jni",
+    "parent": "org.apache.maven.plugins:maven-source-plugin@3.3.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-utils@3.5.1": {
+    "url": "github.com/codehaus-plexus/plexus-utils",
+    "parent": "org.apache.maven.plugins:maven-source-plugin@3.3.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.felix:maven-bundle-plugin@5.1.9": {
+    "url": "github.com/apache/felix-dev",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.osgi:org.osgi.core@6.0.0": {
+    "url": "private",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "biz.aQute.bnd:biz.aQute.bndlib@6.3.1": {
+    "url": "github.com/bndtools/bnd",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.osgi:org.osgi.dto@1.0.0": {
+    "url": "https://osgi.org/git/build.git",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.osgi:org.osgi.resource@1.0.0": {
+    "url": "https://osgi.org/git/build.git",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.osgi:org.osgi.framework@1.8.0": {
+    "url": "https://osgi.org/git/build.git",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.osgi:org.osgi.util.tracker@1.5.4": {
+    "url": "github.com/osgi/osgi",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.osgi:osgi.annotation@8.0.1": {
+    "url": "github.com/osgi/osgi",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.osgi:org.osgi.service.log@1.3.0": {
+    "url": "https://osgi.org/git/build.git",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.osgi:org.osgi.service.repository@1.1.0": {
+    "url": "https://osgi.org/git/build.git",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.osgi:org.osgi.util.function@1.2.0": {
+    "url": "github.com/osgi/osgi",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.osgi:org.osgi.util.promise@1.2.0": {
+    "url": "github.com/osgi/osgi",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "biz.aQute.bnd:biz.aQute.bnd.util@6.3.1": {
+    "url": "github.com/bndtools/bnd",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.slf4j:slf4j-api@1.7.25": {
+    "url": "github.com/qos-ch/slf4j",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.felix:org.apache.felix.bundlerepository@1.6.6": {
+    "url": "http://svn.apache.org/repos/asf/felix/releases/org.apache.felix.bundlerepository-1.6.6",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.easymock:easymock@2.4": {
+    "url": "http://easymock.cvs.sourceforge.net/easymock/",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.felix:org.apache.felix.utils@1.6.0": {
+    "url": "scm:svn:https://svn.apache.org/repos/asf/felix/releases/org.apache.felix.utils-1.6.0",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.osgi:org.osgi.compendium@4.2.0": {
+    "url": "Could not find",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Could not find repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.reporting:maven-reporting-api@3.0": {
+    "url": "http://svn.apache.org/viewvc/maven/shared/tags/maven-reporting-api-3.0",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-archiver@3.5.2": {
+    "url": "github.com/apache/maven-archiver",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-artifact@3.1.1": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-model@3.1.1": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-core@3.1.1": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-settings@3.1.1": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-settings-builder@3.1.1": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-repository-metadata@3.1.1": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-plugin-api@3.1.1": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-model-builder@3.1.1": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-aether-provider@3.1.1": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.aether:aether-spi@0.9.0.M2": {
+    "url": "http://git.eclipse.org/c/aether/aether-core.git/tree/aether-spi/",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.aether:aether-impl@0.9.0.M2": {
+    "url": "http://git.eclipse.org/c/aether/aether-core.git/tree/aether-impl/",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.aether:aether-api@0.9.0.M2": {
+    "url": "http://git.eclipse.org/c/aether/aether-core.git/tree/aether-api/",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.sisu:org.eclipse.sisu.plexus@0.0.0.M5": {
+    "url": "http://git.eclipse.org/c/sisu/org.eclipse.sisu.plexus.git/tree/org.eclipse.sisu.plexus/",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "javax.enterprise:cdi-api@1.0": {
+    "url": "http://fisheye.jboss.org/browse/Weld/api/tags/1.0/build/tags/weld-parent-6/weld-api-bom/weld-api-parent/cdi-api",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "javax.annotation:jsr250-api@1.0": {
+    "url": "http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.google.guava:guava@10.0.1": {
+    "url": "http://code.google.com/p/guava-libraries/source/browse/guava",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.google.code.findbugs:jsr305@1.3.9": {
+    "url": "http://findbugs.googlecode.com/svn/trunk/",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.sisu:sisu-guice@3.1.0": {
+    "url": "github.com/sonatype/sisu-guice",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "aopalliance:aopalliance@1.0": {
+    "url": "http://aopalliance.sourceforge.net",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.sisu:org.eclipse.sisu.inject@0.0.0.M5": {
+    "url": "http://git.eclipse.org/c/sisu/org.eclipse.sisu.inject.git/tree/org.eclipse.sisu.inject/",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-classworlds@2.5.1": {
+    "url": "github.com/sonatype/plexus-classworlds",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.plexus:plexus-sec-dispatcher@1.3": {
+    "url": "Could not find",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Could not find repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.plexus:plexus-cipher@1.4": {
+    "url": "Could not find",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Could not find repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.shared:maven-shared-utils@3.3.3": {
+    "url": "github.com/apache/maven-shared-utils",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-io:commons-io@2.6": {
+    "url": "github.com/apache/commons-io",
+    "parent": "org.apache.maven.plugins:maven-compiler-plugin@3.11.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.commons:commons-compress@1.20": {
+    "url": "github.com/apache/commons-compress",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-archiver@4.2.7": {
+    "url": "github.com/codehaus-plexus/plexus-archiver",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-io@3.2.0": {
+    "url": "github.com/codehaus-plexus/plexus-io",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.shared:maven-dependency-tree@3.0": {
+    "url": "http://svn.apache.org/viewvc/maven/shared/tags/maven-dependency-tree-3.0",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-component-annotations@1.6": {
+    "url": "github.com/sonatype/plexus-containers",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.aether:aether-util@0.9.0.M2": {
+    "url": "http://git.eclipse.org/c/aether/aether-core.git/tree/aether-util/",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-utils@3.3.0": {
+    "url": "github.com/codehaus-plexus/plexus-utils",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.plexus:plexus-build-api@0.0.7": {
+    "url": "http://svn.sonatype.org/spice/tags/plexus-build-api-0.0.7",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-sink-api@1.0": {
+    "url": "https://svn.apache.org/viewvc/maven/doxia/doxia/tags/doxia-1.0/doxia-sink-api",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-site-renderer@1.0": {
+    "url": "https://svn.apache.org/viewvc/maven/doxia/doxia-sitetools/tags/doxia-sitetools-1.0/doxia-site-renderer",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-core@1.0": {
+    "url": "https://svn.apache.org/viewvc/maven/doxia/doxia/tags/doxia-1.0/doxia-core",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-i18n@1.0-beta-7": {
+    "url": "http://fisheye.codehaus.org/browse/plexus/plexus-components/tags/plexus-i18n-1.0-beta-7",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-container-default@1.0-alpha-30": {
+    "url": "http://fisheye.codehaus.org/browse/plexus/plexus-containers/tags/plexus-containers-1.0-alpha-30/plexus-container-default",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "junit:junit@3.8.1": {
+    "url": "http://junit.cvs.sourceforge.net/junit/",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-velocity@1.1.7": {
+    "url": "http://fisheye.codehaus.org/browse/plexus/plexus-components/tags/plexus-velocity-1.1.7",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.velocity:velocity@1.5": {
+    "url": "http://svn.apache.org/viewvc/velocity/engine/tags/Velocity_1.5",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-lang:commons-lang@2.1": {
+    "url": "http://svn.apache.org/viewcvs/jakarta/commons/proper/${pom.artifactId.substring(8)}/trunk",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "oro:oro@2.0.8": {
+    "url": "Could not find",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Could not find repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-decoration-model@1.0": {
+    "url": "https://svn.apache.org/viewvc/maven/doxia/doxia-sitetools/tags/doxia-sitetools-1.0/doxia-decoration-model",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-collections:commons-collections@3.2": {
+    "url": "http://svn.apache.org/repos/asf/jakarta/commons/proper/collections/trunk",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-module-apt@1.0": {
+    "url": "https://svn.apache.org/viewvc/maven/doxia/doxia/tags/doxia-1.0/doxia-modules/doxia-module-apt",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-module-fml@1.0": {
+    "url": "https://svn.apache.org/viewvc/maven/doxia/doxia/tags/doxia-1.0/doxia-modules/doxia-module-fml",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-module-xdoc@1.0": {
+    "url": "https://svn.apache.org/viewvc/maven/doxia/doxia/tags/doxia-1.0/doxia-modules/doxia-module-xdoc",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-module-xhtml@1.0": {
+    "url": "https://svn.apache.org/viewvc/maven/doxia/doxia/tags/doxia-1.0/doxia-modules/doxia-module-xhtml",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.jdom:jdom@1.1": {
+    "url": "scm:cvs:pserver:anonymous@cvs.jdom.org:/home/cvspublic:jdom",
+    "parent": "org.apache.felix:maven-bundle-plugin@5.1.9",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.plugins:maven-compiler-plugin@3.11.0": {
+    "url": "github.com/apache/maven-compiler-plugin",
+    "parent": "org.apache.maven.plugins:maven-compiler-plugin@3.11.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.shared:maven-shared-utils@3.3.4": {
+    "url": "github.com/apache/maven-shared-utils",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.shared:maven-shared-incremental@1.1": {
+    "url": "http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-incremental-1.1",
+    "parent": "org.apache.maven.plugins:maven-compiler-plugin@3.11.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-component-annotations@1.5.5": {
+    "url": "http://fisheye.codehaus.org/browse/plexus/plexus-containers/tags/plexus-containers-1.5.5/plexus-component-annotations",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-java@1.1.2": {
+    "url": "github.com/codehaus-plexus/plexus-languages",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.ow2.asm:asm@9.4": {
+    "url": "https://gitlab.ow2.org/asm/asm/",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.thoughtworks.qdox:qdox@2.0.3": {
+    "url": "github.com/paul-hammant/qdox",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-compiler-api@2.13.0": {
+    "url": "github.com/codehaus-plexus/plexus-compiler",
+    "parent": "org.apache.maven.plugins:maven-compiler-plugin@3.11.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-utils@3.5.0": {
+    "url": "github.com/codehaus-plexus/plexus-utils",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-compiler-manager@2.13.0": {
+    "url": "github.com/codehaus-plexus/plexus-compiler",
+    "parent": "org.apache.maven.plugins:maven-compiler-plugin@3.11.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-compiler-javac@2.13.0": {
+    "url": "github.com/codehaus-plexus/plexus-compiler",
+    "parent": "org.apache.maven.plugins:maven-compiler-plugin@3.11.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.plugins:maven-jar-plugin@3.3.0": {
+    "url": "github.com/apache/maven-jar-plugin",
+    "parent": "org.apache.maven.plugins:maven-jar-plugin@3.3.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.shared:file-management@3.1.0": {
+    "url": "github.com/apache/maven-file-management",
+    "parent": "org.apache.maven.plugins:maven-jar-plugin@3.3.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-archiver@4.4.0": {
+    "url": "github.com/codehaus-plexus/plexus-archiver",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.commons:commons-compress@1.21": {
+    "url": "github.com/apache/commons-compress",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-utils@3.4.2": {
+    "url": "github.com/codehaus-plexus/plexus-utils",
+    "parent": "org.apache.maven.plugins:maven-jar-plugin@3.3.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.plugins:maven-clean-plugin@2.5": {
+    "url": "http://svn.apache.org/viewvc/maven/plugins/tags/maven-clean-plugin-2.5",
+    "parent": "org.apache.maven.plugins:maven-clean-plugin@2.5",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-plugin-api@2.0.6": {
+    "url": "https://svn.apache.org/repos/asf/maven/components/tags/maven-2.0.6/maven-plugin-api",
+    "parent": "org.apache.maven.plugins:maven-clean-plugin@2.5",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-utils@3.0": {
+    "url": "github.com/sonatype/plexus-utils",
+    "parent": "org.apache.maven.plugins:maven-clean-plugin@2.5",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1": {
+    "url": "github.com/apache/maven-resources-plugin",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.shared:maven-filtering@4.0.0-beta-1": {
+    "url": "github.com/apache/maven-filtering",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-api-core@4.0.0-beta-3": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-api-toolchain@4.0.0-beta-3": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-api-plugin@4.0.0-beta-3": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-api-xml@4.0.0-beta-3": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-api-di@4.0.0-beta-3": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-api-model@4.0.0-beta-3": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-api-meta@4.0.0-beta-3": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-api-settings@4.0.0-beta-3": {
+    "url": "github.com/apache/maven",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.slf4j:slf4j-api@2.0.13": {
+    "url": "github.com/qos-ch/slf4j",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-utils@4.0.1": {
+    "url": "github.com/codehaus-plexus/plexus-utils",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-interpolation@1.27": {
+    "url": "github.com/codehaus-plexus/plexus-interpolation",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.plugin-tools:maven-plugin-annotations@4.0.0-beta-1": {
+    "url": "github.com/apache/maven-plugin-tools",
+    "parent": "org.apache.maven.plugins:maven-resources-plugin@4.0.0-beta-1",
+    "message": "GitHub repository",
+    "command": "tree"
+  },
+  "org.moditect:moditect-maven-plugin@1.0.0.Final": {
+    "url": "github.com/moditect/moditect-org-parent",
+    "parent": "org.moditect:moditect-maven-plugin@1.0.0.Final",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.aether:aether-util@1.1.0": {
+    "url": "github.com/jvanzyl/aether-core",
+    "parent": "org.moditect:moditect-maven-plugin@1.0.0.Final",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.aether:aether-api@1.1.0": {
+    "url": "github.com/jvanzyl/aether-core",
+    "parent": "org.moditect:moditect-maven-plugin@1.0.0.Final",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.moditect:moditect@1.0.0.Final": {
+    "url": "github.com/moditect/moditect-org-parent",
+    "parent": "org.moditect:moditect-maven-plugin@1.0.0.Final",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.beust:jcommander@1.82": {
+    "url": "github.com/cbeust/jcommander",
+    "parent": "org.moditect:moditect-maven-plugin@1.0.0.Final",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3": {
+    "url": "github.com/sonatype/nexus-maven-plugins",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.nexus.maven:nexus-common@1.6.3": {
+    "url": "github.com/sonatype/nexus-maven-plugins",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.plexus:plexus-sec-dispatcher@1.4": {
+    "url": "Could not find",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Could not find repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.plexus:plexus-cipher@1.7": {
+    "url": "github.com/sonatype/plexus-cipher",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.google.guava:guava@14.0.1": {
+    "url": "http://code.google.com/p/guava-libraries/source/browse/guava",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.nexus:nexus-client-core@2.7.2-01": {
+    "url": "github.com/sonatype/nexus-oss",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.nexus.plugins:nexus-restlet1x-model@2.7.2-01": {
+    "url": "github.com/sonatype/nexus-oss",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-model@3.0.4": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-3/tags/maven-3.0.4/maven-model",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.slf4j:slf4j-api@1.7.5": {
+    "url": "github.com/ceki/slf4j",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.google.code.findbugs:jsr305@2.0.1": {
+    "url": "http://findbugs.googlecode.com/svn/trunk/",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.intellij:annotations@9.0.4": {
+    "url": "http://git.jetbrains.org/idea/community.git",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.thoughtworks.xstream:xstream@1.4.5": {
+    "url": "http://fisheye.codehaus.org/browse/xstream/tags/XSTREAM_1_4_5/xstream",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "xmlpull:xmlpull@1.1.3.1": {
+    "url": "http://www.xmlpull.org",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "xpp3:xpp3_min@1.1.4c": {
+    "url": "http://www.extreme.indiana.edu/viewcvs/~checkout~/XPP3/java/",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "joda-time:joda-time@2.2": {
+    "url": "github.com/JodaOrg/joda-time",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-lang:commons-lang@2.6": {
+    "url": "http://svn.apache.org/viewvc/commons/proper/lang/branches/LANG_2_X",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-beanutils:commons-beanutils-core@1.8.3": {
+    "url": "http://svn.apache.org/viewvc/maven/pom/tags/apache-4/commons-beanutils-core",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.sisu.siesta:siesta-client@1.5.2": {
+    "url": "github.com/sonatype/sisu-siesta",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.sisu.siesta:siesta-common@1.5.2": {
+    "url": "github.com/sonatype/sisu-siesta",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "javax.ws.rs:jsr311-api@1.1.1": {
+    "url": "https://jsr311.dev.java.net",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.sun.jersey:jersey-core@1.17.1": {
+    "url": "http://java.net/projects/jersey/sources/svn/show/trunk/jersey/jersey-core",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "javax.validation:validation-api@1.1.0.Final": {
+    "url": "github.com/beanvalidation/beanvalidation-api",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.sun.jersey:jersey-client@1.17.1": {
+    "url": "http://java.net/projects/jersey/sources/svn/show/trunk/jersey/jersey-client",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.sun.jersey:jersey-json@1.17.1": {
+    "url": "http://java.net/projects/jersey/sources/svn/show/trunk/jersey/jersey-json",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.sun.xml.bind:jaxb-impl@2.2.3-1": {
+    "url": "https://svn.java.net/svn/jaxb~version2/jaxb-ri",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.jackson:jackson-core-asl@1.9.2": {
+    "url": "http://jackson.codehaus.org",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.jackson:jackson-mapper-asl@1.9.2": {
+    "url": "http://jackson.codehaus.org",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.jackson:jackson-jaxrs@1.9.2": {
+    "url": "http://jackson.codehaus.org",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.jackson:jackson-xc@1.9.2": {
+    "url": "http://jackson.codehaus.org",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.sun.jersey.contribs:jersey-apache-client4@1.17.1": {
+    "url": "http://java.net/projects/jersey/sources/svn/show/trunk/jersey/jersey-contribs/jersey-apache-client4",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.httpcomponents:httpclient@4.3.5": {
+    "url": "https://svn.apache.org/repos/asf/httpcomponents/httpclient/tags/4.3.5/httpclient",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-codec:commons-codec@1.6": {
+    "url": "http://svn.apache.org/viewvc/commons/proper/codec/trunk",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.httpcomponents:httpcore@4.3.2": {
+    "url": "https://svn.apache.org/repos/asf/httpcomponents/httpcore/tags/4.3.2/httpcore",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.slf4j:jcl-over-slf4j@1.7.5": {
+    "url": "github.com/ceki/slf4j",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.spice.zapper:spice-zapper@1.2": {
+    "url": "github.com/sonatype/spice-zapper",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.google.protobuf:protobuf-java@2.4.1": {
+    "url": "http://code.google.com/p/protobuf/source/browse",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.sisu:sisu-charger@1.1": {
+    "url": "github.com/sonatype/sisu-charger",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-utils@3.0.8": {
+    "url": "github.com/sonatype/plexus-utils",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-interpolation@1.15": {
+    "url": "github.com/sonatype/plexus-interpolation",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.aether:aether-api@1.13.1": {
+    "url": "github.com/sonatype/sonatype-aether",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.slf4j:slf4j-simple@1.7.5": {
+    "url": "github.com/ceki/slf4j",
+    "parent": "org.sonatype.plugins:nexus-staging-maven-plugin@1.6.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.plugins:maven-site-plugin@3.3": {
+    "url": "http://svn.apache.org/viewvc/maven/plugins/tags/maven-site-plugin-3.3",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.reporting:maven-reporting-exec@1.1": {
+    "url": "http://svn.apache.org/viewvc/maven/shared/tags/maven-reporting-exec-1.1",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-artifact@3.0": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-3/tags/maven-3.0/maven-artifact",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.shared:maven-shared-utils@0.3": {
+    "url": "http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-utils-0.3",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.aether:aether-util@1.7": {
+    "url": "github.com/sonatype/sonatype-aether",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-core@3.0": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-3/tags/maven-3.0/maven-core",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-repository-metadata@3.0": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-3/tags/maven-3.0/maven-repository-metadata",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-model-builder@3.0": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-3/tags/maven-3.0/maven-model-builder",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-aether-provider@3.0": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-3/tags/maven-3.0/maven-aether-provider",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.aether:aether-impl@1.7": {
+    "url": "github.com/sonatype/sonatype-aether",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.aether:aether-spi@1.7": {
+    "url": "github.com/sonatype/sonatype-aether",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.aether:aether-api@1.7": {
+    "url": "github.com/sonatype/sonatype-aether",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.sisu:sisu-inject-plexus@1.4.2": {
+    "url": "github.com/sonatype/sisu",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.sisu:sisu-inject-bean@1.4.2": {
+    "url": "github.com/sonatype/sisu",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.sonatype.sisu:sisu-guice@2.1.7": {
+    "url": "github.com/sonatype/sisu-guice",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-interpolation@1.14": {
+    "url": "http://fisheye.codehaus.org/browse/plexus/plexus-components/tags/plexus-interpolation-1.14",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-classworlds@2.2.3": {
+    "url": "http://fisheye.codehaus.org/browse/plexus/plexus-classworlds/tags/plexus-classworlds-2.2.3",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-model@3.0": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-3/tags/maven-3.0/maven-model",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-plugin-api@3.0": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-3/tags/maven-3.0/maven-plugin-api",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-settings@3.0": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-3/tags/maven-3.0/maven-settings",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-settings-builder@3.0": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-3/tags/maven-3.0/maven-settings-builder",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-archiver@2.4.2": {
+    "url": "http://svn.apache.org/viewvc/maven/shared/tags/maven-archiver-2.4.2",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-sink-api@1.4": {
+    "url": "http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia/tags/doxia-1.4/doxia-sink-api",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-logging-api@1.4": {
+    "url": "http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia/tags/doxia-1.4/doxia-logging-api",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-core@1.4": {
+    "url": "http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia/tags/doxia-1.4/doxia-core",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "xerces:xercesImpl@2.9.1": {
+    "url": "http://svn.apache.org/viewvc/maven/pom/tags/apache-4/xercesImpl",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "xml-apis:xml-apis@1.3.04": {
+    "url": "http://svn.apache.org/viewvc/xml/commons/tags/xml-commons-external-1_3_04/",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.httpcomponents:httpclient@4.0.2": {
+    "url": "https://svn.apache.org/repos/asf/httpcomponents/httpclient/tags/4.0.2/httpclient",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-logging:commons-logging@1.1.1": {
+    "url": "http://svn.apache.org/repos/asf/commons/proper/logging/tags/commons-logging-1.1.1",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-codec:commons-codec@1.3": {
+    "url": "http://cvs.apache.org/viewcvs/jakarta-commons/codec/",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.httpcomponents:httpcore@4.0.1": {
+    "url": "http://svn.apache.org/repos/asf/httpcomponents/httpcore/tags/4.0.1/httpcore",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-module-xhtml@1.4": {
+    "url": "http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia/tags/doxia-1.4/doxia-modules/doxia-module-xhtml",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-module-apt@1.4": {
+    "url": "http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia/tags/doxia-1.4/doxia-modules/doxia-module-apt",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-module-xdoc@1.4": {
+    "url": "http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia/tags/doxia-1.4/doxia-modules/doxia-module-xdoc",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-module-fml@1.4": {
+    "url": "http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia/tags/doxia-1.4/doxia-modules/doxia-module-fml",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-module-markdown@1.4": {
+    "url": "http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia/tags/doxia-1.4/doxia-modules/doxia-module-markdown",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.pegdown:pegdown@1.2.1": {
+    "url": "github.com/sirthias/pegdown",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.parboiled:parboiled-java@1.1.4": {
+    "url": "github.com/sirthias/parboiled",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.parboiled:parboiled-core@1.1.4": {
+    "url": "github.com/sirthias/parboiled",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.ow2.asm:asm@4.1": {
+    "url": "http://svn.forge.objectweb.org/cgi-bin/viewcvs.cgi/asm/trunk/asm/",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.ow2.asm:asm-tree@4.1": {
+    "url": "http://svn.forge.objectweb.org/cgi-bin/viewcvs.cgi/asm/trunk/asm-tree/",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.ow2.asm:asm-analysis@4.1": {
+    "url": "http://svn.forge.objectweb.org/cgi-bin/viewcvs.cgi/asm/trunk/asm-analysis/",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.ow2.asm:asm-util@4.1": {
+    "url": "http://svn.forge.objectweb.org/cgi-bin/viewcvs.cgi/asm/trunk/asm-util/",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "javax.servlet:servlet-api@2.5": {
+    "url": "Could not find",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Could not find repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-decoration-model@1.4": {
+    "url": "http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia-sitetools/tags/doxia-sitetools-1.4/doxia-decoration-model",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-site-renderer@1.4": {
+    "url": "http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia-sitetools/tags/doxia-sitetools-1.4/doxia-site-renderer",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.velocity:velocity-tools@2.0": {
+    "url": "http://svn.apache.org/repos/asf/velocity/tools/trunk",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-beanutils:commons-beanutils@1.7.0": {
+    "url": "Could not find",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Could not find repository",
+    "command": "resolve-plugins"
+  },
+  "commons-digester:commons-digester@1.8": {
+    "url": "http://svn.apache.org/repos/asf/jakarta/commons/proper/digester/trunk",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-chain:commons-chain@1.1": {
+    "url": "http://svn.apache.org/viewcvs.cgi",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-validator:commons-validator@1.3.1": {
+    "url": "http://svn.apache.org/viewvc",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "dom4j:dom4j@1.1": {
+    "url": "Could not find",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Could not find repository",
+    "command": "resolve-plugins"
+  },
+  "sslext:sslext@1.2-0": {
+    "url": "Could not find",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Could not find repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.struts:struts-core@1.3.8": {
+    "url": "http://svn.apache.org/repos/asf/struts/struts1/trunk/core",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "antlr:antlr@2.7.2": {
+    "url": "Could not find",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Could not find repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.struts:struts-taglib@1.3.8": {
+    "url": "http://svn.apache.org/repos/asf/struts/struts1/trunk/taglib/",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.struts:struts-tiles@1.3.8": {
+    "url": "http://svn.apache.org/repos/asf/struts/struts1/trunk/tiles/",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-collections:commons-collections@3.2.1": {
+    "url": "http://svn.apache.org/viewvc/commons/proper/collections/trunk",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-integration-tools@1.5": {
+    "url": "http://svn.apache.org/viewvc/maven/doxia/doxia-tools/tags/doxia-integration-tools-1.5",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.wagon:wagon-provider-api@1.0": {
+    "url": "http://svn.apache.org/viewvc/maven/wagon/tags/wagon-1.0/wagon-provider-api",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-archiver@1.0": {
+    "url": "http://fisheye.codehaus.org/browse/plexus/plexus-components/tags/plexus-archiver-1.0",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-io@1.0": {
+    "url": "http://fisheye.codehaus.org/browse/plexus/plexus-components/tags/plexus-io-1.0",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-velocity@1.1.8": {
+    "url": "http://fisheye.codehaus.org/browse/plexus/plexus-components/tags/plexus-velocity-1.1.8",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-utils@1.5.10": {
+    "url": "http://fisheye.codehaus.org/browse/plexus/plexus-utils/tags/plexus-utils-1.5.10",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.mortbay.jetty:jetty@6.1.25": {
+    "url": "http://fisheye.codehaus.org/viewrep/jetty/modules/jetty/",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.mortbay.jetty:servlet-api@2.5-20081211": {
+    "url": "scm:svn:https://svn.codehaus.org/jetty/servlet-api/tags/servlet-api-2.5-20081211",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.mortbay.jetty:jetty-util@6.1.25": {
+    "url": "http://fisheye.codehaus.org/viewrep/jetty/jetty-util/",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-lang:commons-lang@2.5": {
+    "url": "http://svn.apache.org/viewvc/commons/proper/lang/trunk",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-io:commons-io@1.4": {
+    "url": "http://svn.apache.org/viewvc/commons/proper/io/trunk",
+    "parent": "org.apache.maven.plugins:maven-site-plugin@3.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.plugins:maven-install-plugin@4.0.0-beta-2": {
+    "url": "github.com/apache/maven-install-plugin",
+    "parent": "org.apache.maven.plugins:maven-install-plugin@4.0.0-beta-2",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.plugins:maven-gpg-plugin@1.6": {
+    "url": "http://svn.apache.org/viewvc/maven/plugins/tags/maven-gpg-plugin-1.6",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-plugin-api@2.2.1": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-plugin-api",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-project@2.2.1": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-project",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-settings@2.2.1": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-settings",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-profile@2.2.1": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-profile",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-artifact-manager@2.2.1": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-artifact-manager",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.wagon:wagon-provider-api@1.0-beta-6": {
+    "url": "http://svn.apache.org/viewvc/maven/wagon/tags/wagon-1.0-beta-6/wagon-provider-api",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "backport-util-concurrent:backport-util-concurrent@3.1": {
+    "url": "svn://dcl.mathcs.emory.edu/software/harness2/trunk/util/backport-util-concurrent/",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-plugin-registry@2.2.1": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-plugin-registry",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-interpolation@1.11": {
+    "url": "http://fisheye.codehaus.org/browse/plexus/plexus-components/tags/plexus-interpolation-1.11",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-container-default@1.0-alpha-9-stable-1": {
+    "url": "scm:svn:svn://svn.codehaus.org/plexus/scm/trunk/plexus-containers/plexus-container-default/",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "classworlds:classworlds@1.1-alpha-2": {
+    "url": "http://cvs.classworlds.codehaus.org/",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-artifact@2.2.1": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-artifact",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-repository-metadata@2.2.1": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-repository-metadata",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven:maven-model@2.2.1": {
+    "url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-model",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-utils@3.0.20": {
+    "url": "github.com/sonatype/plexus-utils",
+    "parent": "org.apache.maven.plugins:maven-gpg-plugin@1.6",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.plugins:maven-deploy-plugin@4.0.0-beta-2": {
+    "url": "github.com/apache/maven-deploy-plugin",
+    "parent": "org.apache.maven.plugins:maven-deploy-plugin@4.0.0-beta-2",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0": {
+    "url": "Could not find",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Could not find repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.reporting:maven-reporting-api@3.1.1": {
+    "url": "github.com/apache/maven-reporting-api",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.shared:maven-invoker@3.2.0": {
+    "url": "github.com/apache/maven-invoker",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.shared:maven-common-artifact-filters@3.2.0": {
+    "url": "github.com/apache/maven-common-artifact-filters",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.aether:aether-impl@1.0.0.v20140518": {
+    "url": "http://git.eclipse.org/c/aether/aether-core.git/tree/aether-impl/",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.aether:aether-api@1.0.0.v20140518": {
+    "url": "http://git.eclipse.org/c/aether/aether-core.git/tree/aether-api/",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.aether:aether-util@1.0.0.v20140518": {
+    "url": "http://git.eclipse.org/c/aether/aether-core.git/tree/aether-util/",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.sisu:org.eclipse.sisu.plexus@0.3.5": {
+    "url": "http://git.eclipse.org/c/sisu/org.eclipse.sisu.plexus.git/tree/org.eclipse.sisu.plexus/",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "javax.annotation:javax.annotation-api@1.2": {
+    "url": "http://java.net/projects/glassfish/sources/svn/show/tags/javax.annotation-api-1.2",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "javax.enterprise:cdi-api@1.2": {
+    "url": "github.com/cdi-spec/cdi",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.eclipse.sisu:org.eclipse.sisu.inject@0.3.5": {
+    "url": "http://git.eclipse.org/c/sisu/org.eclipse.sisu.inject.git/tree/org.eclipse.sisu.inject/",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-sink-api@1.11.1": {
+    "url": "github.com/apache/maven-doxia",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-logging-api@1.11.1": {
+    "url": "github.com/apache/maven-doxia",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-site-renderer@1.11.1": {
+    "url": "github.com/apache/maven-doxia-sitetools",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-core@1.11.1": {
+    "url": "github.com/apache/maven-doxia",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-decoration-model@1.11.1": {
+    "url": "github.com/apache/maven-doxia-sitetools",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-skin-model@1.11.1": {
+    "url": "github.com/apache/maven-doxia-sitetools",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-module-xhtml@1.11.1": {
+    "url": "github.com/apache/maven-doxia",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.doxia:doxia-module-xhtml5@1.11.1": {
+    "url": "github.com/apache/maven-doxia",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-component-annotations@2.0.0": {
+    "url": "github.com/codehaus-plexus/plexus-containers",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-i18n@1.0-beta-10": {
+    "url": "http://fisheye.codehaus.org/browse/plexus/plexus-components/tags/plexus-i18n-1.0-beta-10",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-velocity@1.2": {
+    "url": "github.com/codehaus-plexus/plexus-velocity",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.velocity:velocity@1.7": {
+    "url": "http://svn.apache.org/viewvc/velocity/engine/trunk",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-lang:commons-lang@2.4": {
+    "url": "http://svn.apache.org/viewvc/commons/proper/lang/trunk",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-collections:commons-collections@3.2.2": {
+    "url": "http://svn.apache.org/viewvc/commons/proper/collections/trunk",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.wagon:wagon-provider-api@2.4": {
+    "url": "github.com/apache/maven-wagon",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.commons:commons-lang3@3.12.0": {
+    "url": "github.com/apache/commons-lang",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.commons:commons-text@1.10.0": {
+    "url": "github.com/apache/commons-text",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.httpcomponents:httpclient@4.5.14": {
+    "url": "github.com/apache/httpcomponents-client",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-logging:commons-logging@1.2": {
+    "url": "http://svn.apache.org/repos/asf/commons/proper/logging/trunk",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "commons-codec:commons-codec@1.11": {
+    "url": "http://svn.apache.org/viewvc/commons/proper/codec/trunk",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.httpcomponents:httpcore@4.4.16": {
+    "url": "github.com/apache/httpcomponents-core",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-interactivity-api@1.1": {
+    "url": "github.com/codehaus-plexus/plexus-interactivity",
+    "parent": "org.apache.maven.plugins:maven-javadoc-plugin@3.5.0",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.plugins:maven-surefire-plugin@3.5.3": {
+    "url": "github.com/apache/maven-surefire",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.surefire:surefire-api@3.5.3": {
+    "url": "github.com/apache/maven-surefire",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.surefire:surefire-logger-api@3.5.3": {
+    "url": "github.com/apache/maven-surefire",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.surefire:surefire-shared-utils@3.5.3": {
+    "url": "github.com/apache/maven-surefire",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.surefire:surefire-extensions-api@3.5.3": {
+    "url": "github.com/apache/maven-surefire",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.surefire:maven-surefire-common@3.5.3": {
+    "url": "github.com/apache/maven-surefire",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.surefire:surefire-booter@3.5.3": {
+    "url": "github.com/apache/maven-surefire",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.surefire:surefire-extensions-spi@3.5.3": {
+    "url": "github.com/apache/maven-surefire",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.resolver:maven-resolver-util@1.4.1": {
+    "url": "github.com/apache/maven-resolver",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.resolver:maven-resolver-api@1.4.1": {
+    "url": "github.com/apache/maven-resolver",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.apache.maven.shared:maven-common-artifact-filters@3.4.0": {
+    "url": "github.com/apache/maven-common-artifact-filters",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.codehaus.plexus:plexus-java@1.4.0": {
+    "url": "github.com/codehaus-plexus/plexus-languages",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.ow2.asm:asm@9.7.1": {
+    "url": "https://gitlab.ow2.org/asm/asm/",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "com.thoughtworks.qdox:qdox@2.2.0": {
+    "url": "github.com/paul-hammant/qdox",
+    "parent": "org.apache.maven.plugins:maven-surefire-plugin@3.5.3",
+    "message": "GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "junit:junit@4.13.2": {
+    "url": "github.com/junit-team/junit4",
+    "parent": null,
+    "message": "GitHub repository",
+    "command": "tree"
+  },
+  "org.hamcrest:hamcrest-core@1.3": {
+    "url": "github.com/hamcrest/JavaHamcrest",
+    "parent": "junit:junit@4.13.2",
+    "message": "GitHub repository",
+    "command": "tree"
+  },
+  "com.jayway.jsonpath:json-path@2.9.0": {
+    "url": "github.com/jayway/JsonPath",
+    "parent": null,
+    "message": "GitHub repository",
+    "command": "tree"
+  },
+  "net.minidev:json-smart@2.5.0": {
+    "url": "github.com/netplex/json-smart-v2",
+    "parent": "com.jayway.jsonpath:json-path@2.9.0",
+    "message": "GitHub repository",
+    "command": "tree"
+  },
+  "net.minidev:accessors-smart@2.5.0": {
+    "url": "github.com/netplex/json-smart-v2",
+    "parent": "net.minidev:json-smart@2.5.0",
+    "message": "GitHub repository",
+    "command": "tree"
+  },
+  "org.ow2.asm:asm@9.3": {
+    "url": "https://gitlab.ow2.org/asm/asm/",
+    "parent": "net.minidev:accessors-smart@2.5.0",
+    "message": "Not a GitHub repository",
+    "command": "resolve-plugins"
+  },
+  "org.slf4j:slf4j-api@2.0.11": {
+    "url": "github.com/qos-ch/slf4j",
+    "parent": "com.jayway.jsonpath:json-path@2.9.0",
+    "message": "GitHub repository",
+    "command": "tree"
+  },
+  "org.mockito:mockito-core@4.2.0": {
+    "url": "github.com/mockito/mockito",
+    "parent": null,
+    "message": "GitHub repository",
+    "command": "tree"
+  },
+  "net.bytebuddy:byte-buddy@1.12.4": {
+    "url": "github.com/raphw/byte-buddy",
+    "parent": "org.mockito:mockito-core@4.2.0",
+    "message": "GitHub repository",
+    "command": "tree"
+  },
+  "net.bytebuddy:byte-buddy-agent@1.12.4": {
+    "url": "github.com/raphw/byte-buddy",
+    "parent": "org.mockito:mockito-core@4.2.0",
+    "message": "GitHub repository",
+    "command": "tree"
+  },
+  "org.objenesis:objenesis@3.2": {
+    "url": "github.com/easymock/objenesis",
+    "parent": "org.mockito:mockito-core@4.2.0",
+    "message": "GitHub repository",
+    "command": "tree"
+  }
+}
