@@ -1,0 +1,2365 @@
+{
+  "@babel/code-frame@7.0.0": {
+    "url": "github.com/babel/babel",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "@babel/highlight@7.0.0": {
+    "url": "github.com/babel/babel",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "@gulp-sourcemaps/identity-map@1.0.2": {
+    "url": "github.com/gulp-sourcemaps/identity-map",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "@gulp-sourcemaps/map-sources@1.0.0": {
+    "url": "github.com/gulp-sourcemaps/map-sources",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "acorn-jsx@5.0.1": {
+    "url": "github.com/RReverser/acorn-jsx",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "acorn@5.7.3": {
+    "url": "github.com/acornjs/acorn",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "acorn@6.0.4": {
+    "url": "github.com/acornjs/acorn",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ajv@6.6.1": {
+    "url": "github.com/epoberezkin/ajv",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ansi-colors@1.1.0": {
+    "url": "github.com/doowb/ansi-colors",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ansi-escapes@3.1.0": {
+    "url": "github.com/sindresorhus/ansi-escapes",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ansi-gray@0.1.1": {
+    "url": "github.com/jonschlinkert/ansi-gray",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ansi-regex@2.1.1": {
+    "url": "github.com/chalk/ansi-regex",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ansi-regex@3.0.0": {
+    "url": "github.com/chalk/ansi-regex",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ansi-regex@4.0.0": {
+    "url": "github.com/chalk/ansi-regex",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ansi-styles@2.2.1": {
+    "url": "github.com/chalk/ansi-styles",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ansi-styles@3.2.1": {
+    "url": "github.com/chalk/ansi-styles",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ansi-wrap@0.1.0": {
+    "url": "github.com/jonschlinkert/ansi-wrap",
+    "parent": [
+      "ansi-gray@0.1.1"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "archy@1.0.0": {
+    "url": "github.com/substack/node-archy",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "argparse@1.0.10": {
+    "url": "github.com/nodeca/argparse",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "arr-diff@4.0.0": {
+    "url": "github.com/jonschlinkert/arr-diff",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "arr-flatten@1.1.0": {
+    "url": "github.com/jonschlinkert/arr-flatten",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "arr-union@3.1.0": {
+    "url": "github.com/jonschlinkert/arr-union",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "array-differ@1.0.0": {
+    "url": "github.com/sindresorhus/array-differ",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "array-each@1.0.1": {
+    "url": "github.com/jonschlinkert/array-each",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "array-slice@1.1.0": {
+    "url": "github.com/jonschlinkert/array-slice",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "array-uniq@1.0.3": {
+    "url": "github.com/sindresorhus/array-uniq",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "array-unique@0.3.2": {
+    "url": "github.com/jonschlinkert/array-unique",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "assign-symbols@1.0.0": {
+    "url": "github.com/jonschlinkert/assign-symbols",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "astral-regex@1.0.0": {
+    "url": "github.com/kevva/astral-regex",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "atob@2.1.2": {
+    "url": "git://git.coolaj86.com/coolaj86/atob.js.git\n",
+    "parent": [],
+    "message": "Not a GitHub repository",
+    "command": null
+  },
+  "balanced-match@1.0.0": {
+    "url": "github.com/juliangruber/balanced-match",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "base@0.11.2": {
+    "url": "github.com/node-base/base",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "beeper@1.1.1": {
+    "url": "github.com/sindresorhus/beeper",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "benchmark@1.0.0": {
+    "url": "github.com/bestiejs/benchmark.js",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "benchmark@2.1.4": {
+    "url": "github.com/bestiejs/benchmark.js",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "brace-expansion@1.1.11": {
+    "url": "github.com/juliangruber/brace-expansion",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "braces@2.3.2": {
+    "url": "github.com/micromatch/braces",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "browser-stdout@1.3.1": {
+    "url": "github.com/kumavis/browser-stdout",
+    "parent": [
+      "mocha@5.2.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "cache-base@1.0.1": {
+    "url": "github.com/jonschlinkert/cache-base",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "caller-path@0.1.0": {
+    "url": "github.com/sindresorhus/caller-path",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "callsites@0.2.0": {
+    "url": "github.com/sindresorhus/callsites",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "chalk@1.1.3": {
+    "url": "github.com/chalk/chalk",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "chalk@2.4.1": {
+    "url": "github.com/chalk/chalk",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "chardet@0.7.0": {
+    "url": "github.com/runk/node-chardet",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "circular-json@0.3.3": {
+    "url": "github.com/WebReflection/circular-json",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "class-utils@0.3.6": {
+    "url": "github.com/jonschlinkert/class-utils",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "cli-cursor@2.1.0": {
+    "url": "github.com/sindresorhus/cli-cursor",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "cli-width@2.2.0": {
+    "url": "github.com/knownasilya/cli-width",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "clone-stats@0.0.1": {
+    "url": "github.com/hughsk/clone-stats",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "clone@0.2.0": {
+    "url": "github.com/pvorb/node-clone",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "clone@1.0.4": {
+    "url": "github.com/pvorb/node-clone",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "collection-visit@1.0.0": {
+    "url": "github.com/jonschlinkert/collection-visit",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "color-convert@1.9.3": {
+    "url": "github.com/Qix-/color-convert",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "color-name@1.1.3": {
+    "url": "github.com/dfcreative/color-name",
+    "parent": [
+      "color-convert@1.9.3"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "color-support@1.1.3": {
+    "url": "github.com/isaacs/color-support",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "commander@2.15.1": {
+    "url": "github.com/tj/commander.js",
+    "parent": [
+      "mocha@5.2.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "commander@2.17.1": {
+    "url": "github.com/tj/commander.js",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "component-emitter@1.2.1": {
+    "url": "github.com/component/emitter",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "concat-map@0.0.1": {
+    "url": "github.com/substack/node-concat-map",
+    "parent": [
+      "brace-expansion@1.1.11"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "concat-with-sourcemaps@1.1.0": {
+    "url": "github.com/floridoo/concat-with-sourcemaps",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "convert-source-map@1.6.0": {
+    "url": "github.com/thlorenz/convert-source-map",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "copy-descriptor@0.1.1": {
+    "url": "github.com/jonschlinkert/copy-descriptor",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "core-util-is@1.0.2": {
+    "url": "github.com/isaacs/core-util-is",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "cross-spawn@6.0.5": {
+    "url": "github.com/moxystudio/node-cross-spawn",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "css@2.2.4": {
+    "url": "github.com/reworkcss/css",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "d@1.0.0": {
+    "url": "github.com/medikoo/d",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "dargs@5.1.0": {
+    "url": "github.com/sindresorhus/dargs",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "dateformat@2.2.0": {
+    "url": "github.com/felixge/node-dateformat",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "debug-fabulous@1.1.0": {
+    "url": "github.com/nmccready/debug-fabulous",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "debug@2.6.9": {
+    "url": "github.com/visionmedia/debug",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "debug@3.1.0": {
+    "url": "github.com/visionmedia/debug",
+    "parent": [
+      "mocha@5.2.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "debug@3.2.6": {
+    "url": "github.com/visionmedia/debug",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "debug@4.1.0": {
+    "url": "github.com/visionmedia/debug",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "decode-uri-component@0.2.0": {
+    "url": "github.com/samverschueren/decode-uri-component",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "deep-is@0.1.3": {
+    "url": "github.com/thlorenz/deep-is",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "defaults@1.0.3": {
+    "url": "github.com/tmpvar/defaults",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "define-property@0.2.5": {
+    "url": "github.com/jonschlinkert/define-property",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "define-property@1.0.0": {
+    "url": "github.com/jonschlinkert/define-property",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "define-property@2.0.2": {
+    "url": "github.com/jonschlinkert/define-property",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "deprecated@0.0.1": {
+    "url": "github.com/wearefractal/deprecated",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "detect-file@1.0.0": {
+    "url": "github.com/doowb/detect-file",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "detect-newline@2.1.0": {
+    "url": "github.com/sindresorhus/detect-newline",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "diff@3.5.0": {
+    "url": "github.com/kpdecker/jsdiff",
+    "parent": [
+      "mocha@5.2.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "doctrine@2.1.0": {
+    "url": "github.com/eslint/doctrine",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "duplexer2@0.0.2": {
+    "url": "github.com/deoxxa/duplexer2",
+    "parent": [
+      "multipipe@0.1.2"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "end-of-stream@0.1.5": {
+    "url": "github.com/mafintosh/end-of-stream",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "es5-ext@0.10.46": {
+    "url": "github.com/medikoo/es5-ext",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "es6-iterator@2.0.3": {
+    "url": "github.com/medikoo/es6-iterator",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "es6-symbol@3.1.1": {
+    "url": "github.com/medikoo/es6-symbol",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "es6-weak-map@2.0.2": {
+    "url": "github.com/medikoo/es6-weak-map",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "escape-string-regexp@1.0.5": {
+    "url": "github.com/sindresorhus/escape-string-regexp",
+    "parent": [
+      "mocha@5.2.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "eslint-scope@4.0.0": {
+    "url": "github.com/eslint/eslint-scope",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "eslint-utils@1.3.1": {
+    "url": "github.com/mysticatea/eslint-utils",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "eslint-visitor-keys@1.0.0": {
+    "url": "github.com/eslint/eslint-visitor-keys",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "eslint@5.10.0": {
+    "url": "github.com/eslint/eslint",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "espree@5.0.0": {
+    "url": "github.com/eslint/espree",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "esprima@4.0.1": {
+    "url": "github.com/jquery/esprima",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "esquery@1.0.1": {
+    "url": "github.com/jrfeenst/esquery",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "esrecurse@4.2.1": {
+    "url": "github.com/estools/esrecurse",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "estraverse@4.2.0": {
+    "url": "github.com/estools/estraverse",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "esutils@2.0.2": {
+    "url": "github.com/estools/esutils",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "event-emitter@0.3.5": {
+    "url": "github.com/medikoo/event-emitter",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "execa@0.10.0": {
+    "url": "github.com/sindresorhus/execa",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "expand-brackets@2.1.4": {
+    "url": "github.com/jonschlinkert/expand-brackets",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "expand-tilde@2.0.2": {
+    "url": "github.com/jonschlinkert/expand-tilde",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "extend-shallow@2.0.1": {
+    "url": "github.com/jonschlinkert/extend-shallow",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "extend-shallow@3.0.2": {
+    "url": "github.com/jonschlinkert/extend-shallow",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "extend@3.0.2": {
+    "url": "github.com/justmoon/node-extend",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "external-editor@3.0.3": {
+    "url": "github.com/mrkmg/node-external-editor",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "extglob@2.0.4": {
+    "url": "github.com/micromatch/extglob",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "fancy-log@1.3.3": {
+    "url": "github.com/gulpjs/fancy-log",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "fast-deep-equal@2.0.1": {
+    "url": "github.com/epoberezkin/fast-deep-equal",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "fast-json-stable-stringify@2.0.0": {
+    "url": "github.com/epoberezkin/fast-json-stable-stringify",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "fast-levenshtein@2.0.6": {
+    "url": "github.com/hiddentao/fast-levenshtein",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "figures@2.0.0": {
+    "url": "github.com/sindresorhus/figures",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "file-entry-cache@2.0.0": {
+    "url": "github.com/royriojas/file-entry-cache",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "fill-range@4.0.0": {
+    "url": "github.com/jonschlinkert/fill-range",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "find-index@0.1.1": {
+    "url": "github.com/jsdf/find-index",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "findup-sync@2.0.0": {
+    "url": "github.com/js-cli/node-findup-sync",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "fined@1.1.0": {
+    "url": "github.com/js-cli/fined",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "first-chunk-stream@1.0.0": {
+    "url": "github.com/sindresorhus/first-chunk-stream",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "flagged-respawn@1.0.0": {
+    "url": "github.com/js-cli/js-flagged-respawn",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "flat-cache@1.3.4": {
+    "url": "github.com/royriojas/flat-cache",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "for-in@1.0.2": {
+    "url": "github.com/jonschlinkert/for-in",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "for-own@1.0.0": {
+    "url": "github.com/jonschlinkert/for-own",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "fragment-cache@0.2.1": {
+    "url": "github.com/jonschlinkert/fragment-cache",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "fs.realpath@1.0.0": {
+    "url": "github.com/isaacs/fs.realpath",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "functional-red-black-tree@1.0.1": {
+    "url": "github.com/mikolalysenko/functional-red-black-tree",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "gaze@0.5.2": {
+    "url": "github.com/shama/gaze",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "get-stream@3.0.0": {
+    "url": "github.com/sindresorhus/get-stream",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "get-value@2.0.6": {
+    "url": "github.com/jonschlinkert/get-value",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "glob-stream@3.1.18": {
+    "url": "github.com/wearefractal/glob-stream",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "glob-watcher@0.0.6": {
+    "url": "github.com/wearefractal/glob-watcher",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "glob2base@0.0.12": {
+    "url": "github.com/wearefractal/glob2base",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "glob@3.1.21": {
+    "url": "github.com/isaacs/node-glob",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "glob@4.5.3": {
+    "url": "github.com/isaacs/node-glob",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "glob@7.1.2": {
+    "url": "github.com/isaacs/node-glob",
+    "parent": [
+      "mocha@5.2.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "glob@7.1.3": {
+    "url": "github.com/isaacs/node-glob",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "global-modules@1.0.0": {
+    "url": "github.com/jonschlinkert/global-modules",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "global-prefix@1.0.2": {
+    "url": "github.com/jonschlinkert/global-prefix",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "globals@11.9.0": {
+    "url": "github.com/sindresorhus/globals",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "globule@0.1.0": {
+    "url": "github.com/cowboy/node-globule",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "glogg@1.0.1": {
+    "url": "github.com/js-cli/glogg",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "graceful-fs@4.2.11": {
+    "url": "github.com/isaacs/node-graceful-fs",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "growl@1.10.5": {
+    "url": "github.com/tj/node-growl",
+    "parent": [
+      "mocha@5.2.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "gulp-benchmark@1.1.1": {
+    "url": "github.com/VicNumber21/gulp-benchmark",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "gulp-eslint@5.0.0": {
+    "url": "github.com/adametry/gulp-eslint",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "gulp-header@2.0.5": {
+    "url": "github.com/tracker1/gulp-header",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "gulp-mocha@6.0.0": {
+    "url": "github.com/sindresorhus/gulp-mocha",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "gulp-rename@1.4.0": {
+    "url": "github.com/hparra/gulp-rename",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "gulp-sourcemaps@2.6.4": {
+    "url": "github.com/gulp-sourcemaps/gulp-sourcemaps",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "gulp-uglify@3.0.1": {
+    "url": "github.com/terinjokes/gulp-uglify",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "gulp-util@3.0.8": {
+    "url": "github.com/gulpjs/gulp-util",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "gulp@3.9.1": {
+    "url": "github.com/gulpjs/gulp",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "gulplog@1.0.0": {
+    "url": "github.com/gulpjs/gulplog",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "has-ansi@2.0.0": {
+    "url": "github.com/sindresorhus/has-ansi",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "has-flag@3.0.0": {
+    "url": "github.com/sindresorhus/has-flag",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "has-gulplog@0.1.0": {
+    "url": "github.com/gulpjs/has-gulplog",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "has-value@0.3.1": {
+    "url": "github.com/jonschlinkert/has-value",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "has-value@1.0.0": {
+    "url": "github.com/jonschlinkert/has-value",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "has-values@0.1.4": {
+    "url": "github.com/jonschlinkert/has-values",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "has-values@1.0.0": {
+    "url": "github.com/jonschlinkert/has-values",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "he@1.1.1": {
+    "url": "github.com/mathiasbynens/he",
+    "parent": [
+      "mocha@5.2.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "homedir-polyfill@1.0.1": {
+    "url": "github.com/doowb/homedir-polyfill",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "iconv-lite@0.4.24": {
+    "url": "github.com/ashtuchkin/iconv-lite",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ignore@4.0.6": {
+    "url": "github.com/kaelzhang/node-ignore",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "imurmurhash@0.1.4": {
+    "url": "github.com/jensyt/imurmurhash-js",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "inflight@1.0.6": {
+    "url": "github.com/npm/inflight",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "inherits@1.0.2": {
+    "url": "github.com/isaacs/inherits",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "inherits@2.0.3": {
+    "url": "github.com/isaacs/inherits",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ini@1.3.5": {
+    "url": "github.com/isaacs/ini",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "inquirer@6.2.1": {
+    "url": "github.com/SBoudrias/Inquirer.js",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "interpret@1.1.0": {
+    "url": "github.com/tkellen/node-interpret",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-absolute@1.0.0": {
+    "url": "github.com/jonschlinkert/is-absolute",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-accessor-descriptor@0.1.6": {
+    "url": "github.com/jonschlinkert/is-accessor-descriptor",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-accessor-descriptor@1.0.0": {
+    "url": "github.com/jonschlinkert/is-accessor-descriptor",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-buffer@1.1.6": {
+    "url": "github.com/feross/is-buffer",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-data-descriptor@0.1.4": {
+    "url": "github.com/jonschlinkert/is-data-descriptor",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-data-descriptor@1.0.0": {
+    "url": "github.com/jonschlinkert/is-data-descriptor",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-descriptor@0.1.6": {
+    "url": "github.com/jonschlinkert/is-descriptor",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-descriptor@1.0.2": {
+    "url": "github.com/jonschlinkert/is-descriptor",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-extendable@0.1.1": {
+    "url": "github.com/jonschlinkert/is-extendable",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-extendable@1.0.1": {
+    "url": "github.com/jonschlinkert/is-extendable",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-extglob@2.1.1": {
+    "url": "github.com/jonschlinkert/is-extglob",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-fullwidth-code-point@2.0.0": {
+    "url": "github.com/sindresorhus/is-fullwidth-code-point",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-glob@3.1.0": {
+    "url": "github.com/jonschlinkert/is-glob",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-number@3.0.0": {
+    "url": "github.com/jonschlinkert/is-number",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-plain-object@2.0.4": {
+    "url": "github.com/jonschlinkert/is-plain-object",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-promise@2.1.0": {
+    "url": "github.com/then/is-promise",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-relative@1.0.0": {
+    "url": "github.com/jonschlinkert/is-relative",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-stream@1.1.0": {
+    "url": "github.com/sindresorhus/is-stream",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-unc-path@1.0.0": {
+    "url": "github.com/jonschlinkert/is-unc-path",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-utf8@0.2.1": {
+    "url": "github.com/wayfind/is-utf8",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "is-windows@1.0.2": {
+    "url": "github.com/jonschlinkert/is-windows",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "isarray@0.0.1": {
+    "url": "github.com/juliangruber/isarray",
+    "parent": [
+      "readable-stream@1.0.34",
+      "readable-stream@1.1.14"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "isarray@1.0.0": {
+    "url": "github.com/juliangruber/isarray",
+    "parent": [
+      "isobject@2.1.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "isexe@2.0.0": {
+    "url": "github.com/isaacs/isexe",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "isobject@2.1.0": {
+    "url": "github.com/jonschlinkert/isobject",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "isobject@3.0.1": {
+    "url": "github.com/jonschlinkert/isobject",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "js-tokens@4.0.0": {
+    "url": "github.com/lydell/js-tokens",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "js-yaml@3.12.0": {
+    "url": "github.com/nodeca/js-yaml",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "json-schema-traverse@0.4.1": {
+    "url": "github.com/epoberezkin/json-schema-traverse",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "json-stable-stringify-without-jsonify@1.0.1": {
+    "url": "github.com/samn/json-stable-stringify",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "kind-of@3.2.2": {
+    "url": "github.com/jonschlinkert/kind-of",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "kind-of@4.0.0": {
+    "url": "github.com/jonschlinkert/kind-of",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "kind-of@5.1.0": {
+    "url": "github.com/jonschlinkert/kind-of",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "kind-of@6.0.2": {
+    "url": "github.com/jonschlinkert/kind-of",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "levn@0.3.0": {
+    "url": "github.com/gkz/levn",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "liftoff@2.5.0": {
+    "url": "github.com/js-cli/js-liftoff",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash._basecopy@3.0.1": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash._basetostring@3.0.1": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash._basevalues@3.0.0": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash._getnative@3.9.1": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash._isiterateecall@3.0.9": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash._reescape@3.0.0": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash._reevaluate@3.0.0": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash._reinterpolate@3.0.0": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash._root@3.0.1": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash.escape@3.2.0": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash.isarguments@3.1.0": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash.isarray@3.0.4": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash.keys@3.1.2": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash.restparam@3.6.1": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash.template@3.6.2": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash.template@4.4.0": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash.templatesettings@3.1.1": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash.templatesettings@4.1.0": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash@1.0.2": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash@2.4.2": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lodash@4.17.11": {
+    "url": "github.com/lodash/lodash",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lru-cache@2.7.3": {
+    "url": "github.com/isaacs/node-lru-cache",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "lru-queue@0.1.0": {
+    "url": "github.com/medikoo/lru-queue",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "make-error-cause@1.2.2": {
+    "url": "github.com/blakeembrey/make-error-cause",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "make-error@1.3.5": {
+    "url": "github.com/JsCommunity/make-error",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "make-iterator@1.0.1": {
+    "url": "github.com/jonschlinkert/make-iterator",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "map-cache@0.2.2": {
+    "url": "github.com/jonschlinkert/map-cache",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "map-visit@1.0.0": {
+    "url": "github.com/jonschlinkert/map-visit",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "memoizee@0.4.14": {
+    "url": "github.com/medikoo/memoizee",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "micromatch@3.1.10": {
+    "url": "github.com/micromatch/micromatch",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "mimic-fn@1.2.0": {
+    "url": "github.com/sindresorhus/mimic-fn",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "minimatch@0.2.14": {
+    "url": "github.com/isaacs/minimatch",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "minimatch@2.0.10": {
+    "url": "github.com/isaacs/minimatch",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "minimatch@3.0.4": {
+    "url": "github.com/isaacs/minimatch",
+    "parent": [
+      "mocha@5.2.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "minimist@0.0.8": {
+    "url": "github.com/substack/minimist",
+    "parent": [
+      "mkdirp@0.5.1"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "minimist@1.2.0": {
+    "url": "github.com/substack/minimist",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "mixin-deep@1.3.1": {
+    "url": "github.com/jonschlinkert/mixin-deep",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "mkdirp@0.5.1": {
+    "url": "github.com/substack/node-mkdirp",
+    "parent": [
+      "mocha@5.2.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "mocha@5.2.0": {
+    "url": "github.com/mochajs/mocha",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ms@2.0.0": {
+    "url": "github.com/zeit/ms",
+    "parent": [
+      "debug@2.6.9",
+      "debug@3.1.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ms@2.1.1": {
+    "url": "github.com/zeit/ms",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "multipipe@0.1.2": {
+    "url": "github.com/juliangruber/multipipe",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "mute-stream@0.0.7": {
+    "url": "github.com/isaacs/mute-stream",
+    "parent": [
+      "inquirer@6.2.1"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "nanomatch@1.2.13": {
+    "url": "github.com/micromatch/nanomatch",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "natural-compare@1.4.0": {
+    "url": "github.com/litejs/natural-compare-lite",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "next-tick@1.0.0": {
+    "url": "github.com/medikoo/next-tick",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "nice-try@1.0.5": {
+    "url": "github.com/electerious/nice-try",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "normalize-path@2.1.1": {
+    "url": "github.com/jonschlinkert/normalize-path",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "npm-run-path@2.0.2": {
+    "url": "github.com/sindresorhus/npm-run-path",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "object-assign@3.0.0": {
+    "url": "github.com/sindresorhus/object-assign",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "object-assign@4.1.1": {
+    "url": "github.com/sindresorhus/object-assign",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "object-copy@0.1.0": {
+    "url": "github.com/jonschlinkert/object-copy",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "object-visit@1.0.1": {
+    "url": "github.com/jonschlinkert/object-visit",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "object.defaults@1.1.0": {
+    "url": "github.com/jonschlinkert/object.defaults",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "object.map@1.0.1": {
+    "url": "github.com/jonschlinkert/object.map",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "object.pick@1.3.0": {
+    "url": "github.com/jonschlinkert/object.pick",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "once@1.3.3": {
+    "url": "github.com/isaacs/once",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "once@1.4.0": {
+    "url": "github.com/isaacs/once",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "onetime@2.0.1": {
+    "url": "github.com/sindresorhus/onetime",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "optionator@0.8.2": {
+    "url": "github.com/gkz/optionator",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "orchestrator@0.3.8": {
+    "url": "github.com/robrich/orchestrator",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ordered-read-streams@0.1.0": {
+    "url": "github.com/armed/ordered-read-streams",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "os-homedir@1.0.2": {
+    "url": "github.com/sindresorhus/os-homedir",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "os-tmpdir@1.0.2": {
+    "url": "github.com/sindresorhus/os-tmpdir",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "p-finally@1.0.0": {
+    "url": "github.com/sindresorhus/p-finally",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "parse-filepath@1.0.2": {
+    "url": "github.com/jonschlinkert/parse-filepath",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "parse-node-version@1.0.0": {
+    "url": "github.com/gulpjs/parse-node-version",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "parse-passwd@1.0.0": {
+    "url": "github.com/doowb/parse-passwd",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "pascalcase@0.1.1": {
+    "url": "github.com/jonschlinkert/pascalcase",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "path-is-absolute@1.0.1": {
+    "url": "github.com/sindresorhus/path-is-absolute",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "path-is-inside@1.0.2": {
+    "url": "github.com/domenic/path-is-inside",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "path-key@2.0.1": {
+    "url": "github.com/sindresorhus/path-key",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "path-parse@1.0.6": {
+    "url": "github.com/jbgutierrez/path-parse",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "path-root-regex@0.1.2": {
+    "url": "github.com/regexhq/path-root-regex",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "path-root@0.1.1": {
+    "url": "github.com/jonschlinkert/path-root",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "platform@1.3.5": {
+    "url": "github.com/bestiejs/platform.js",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "plugin-error@1.0.1": {
+    "url": "github.com/gulpjs/plugin-error",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "pluralize@7.0.0": {
+    "url": "github.com/blakeembrey/pluralize",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "posix-character-classes@0.1.1": {
+    "url": "github.com/jonschlinkert/posix-character-classes",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "prelude-ls@1.1.2": {
+    "url": "github.com/gkz/prelude-ls",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "pretty-hrtime@1.0.3": {
+    "url": "github.com/robrich/pretty-hrtime",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "process-nextick-args@2.0.0": {
+    "url": "github.com/calvinmetcalf/process-nextick-args",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "progress@2.0.3": {
+    "url": "github.com/visionmedia/node-progress",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "punycode@2.1.1": {
+    "url": "github.com/bestiejs/punycode.js",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "q@1.5.1": {
+    "url": "github.com/kriskowal/q",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "readable-stream@1.0.34": {
+    "url": "github.com/isaacs/readable-stream",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "readable-stream@1.1.14": {
+    "url": "github.com/isaacs/readable-stream",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "readable-stream@2.3.6": {
+    "url": "github.com/nodejs/readable-stream",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "rechoir@0.6.2": {
+    "url": "github.com/tkellen/node-rechoir",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "regex-not@1.0.2": {
+    "url": "github.com/jonschlinkert/regex-not",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "regexpp@2.0.1": {
+    "url": "github.com/mysticatea/regexpp",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "remove-trailing-separator@1.1.0": {
+    "url": "github.com/darsain/remove-trailing-separator",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "repeat-element@1.1.3": {
+    "url": "github.com/jonschlinkert/repeat-element",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "repeat-string@1.6.1": {
+    "url": "github.com/jonschlinkert/repeat-string",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "replace-ext@0.0.1": {
+    "url": "github.com/wearefractal/replace-ext",
+    "parent": [
+      "vinyl@0.5.3",
+      "gulp-util@3.0.8"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "require-uncached@1.0.3": {
+    "url": "github.com/sindresorhus/require-uncached",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "resolve-dir@1.0.1": {
+    "url": "github.com/jonschlinkert/resolve-dir",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "resolve-from@1.0.1": {
+    "url": "github.com/sindresorhus/resolve-from",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "resolve-url@0.2.1": {
+    "url": "github.com/lydell/resolve-url",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "resolve@1.8.1": {
+    "url": "github.com/browserify/resolve",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "restore-cursor@2.0.0": {
+    "url": "github.com/sindresorhus/restore-cursor",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "ret@0.1.15": {
+    "url": "github.com/fent/ret.js",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "rimraf@2.6.2": {
+    "url": "github.com/isaacs/rimraf",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "run-async@2.3.0": {
+    "url": "github.com/sboudrias/run-async",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "rxjs@6.3.3": {
+    "url": "github.com/reactivex/rxjs",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "safe-buffer@5.1.2": {
+    "url": "github.com/feross/safe-buffer",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "safe-regex@1.1.0": {
+    "url": "github.com/substack/safe-regex",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "safer-buffer@2.1.2": {
+    "url": "github.com/ChALkeR/safer-buffer",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "semver@4.3.6": {
+    "url": "github.com/npm/node-semver",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "semver@5.6.0": {
+    "url": "github.com/npm/node-semver",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "sequencify@0.0.7": {
+    "url": "github.com/robrich/sequencify",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "set-value@0.4.3": {
+    "url": "github.com/jonschlinkert/set-value",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "set-value@2.0.0": {
+    "url": "github.com/jonschlinkert/set-value",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "shebang-command@1.2.0": {
+    "url": "github.com/kevva/shebang-command",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "shebang-regex@1.0.0": {
+    "url": "github.com/sindresorhus/shebang-regex",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "sigmund@1.0.1": {
+    "url": "github.com/isaacs/sigmund",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "signal-exit@3.0.2": {
+    "url": "github.com/tapjs/signal-exit",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "slice-ansi@2.0.0": {
+    "url": "github.com/chalk/slice-ansi",
+    "parent": [
+      "table@5.1.1"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "snapdragon-node@2.1.1": {
+    "url": "github.com/jonschlinkert/snapdragon-node",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "snapdragon-util@3.0.1": {
+    "url": "github.com/jonschlinkert/snapdragon-util",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "snapdragon@0.8.2": {
+    "url": "github.com/jonschlinkert/snapdragon",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "source-map-resolve@0.5.2": {
+    "url": "github.com/lydell/source-map-resolve",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "source-map-url@0.4.0": {
+    "url": "github.com/lydell/source-map-url",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "source-map@0.5.7": {
+    "url": "github.com/mozilla/source-map",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "source-map@0.6.1": {
+    "url": "github.com/mozilla/source-map",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "sparkles@1.0.1": {
+    "url": "github.com/gulpjs/sparkles",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "split-string@3.1.0": {
+    "url": "github.com/jonschlinkert/split-string",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "sprintf-js@1.0.3": {
+    "url": "github.com/alexei/sprintf.js",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "static-extend@0.1.2": {
+    "url": "github.com/jonschlinkert/static-extend",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "stream-consume@0.1.1": {
+    "url": "github.com/aroneous/stream-consume",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "string-width@2.1.1": {
+    "url": "github.com/sindresorhus/string-width",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "string_decoder@0.10.31": {
+    "url": "github.com/rvagg/string_decoder",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "string_decoder@1.1.1": {
+    "url": "github.com/nodejs/string_decoder",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "strip-ansi@3.0.1": {
+    "url": "github.com/chalk/strip-ansi",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "strip-ansi@4.0.0": {
+    "url": "github.com/chalk/strip-ansi",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "strip-ansi@5.0.0": {
+    "url": "github.com/chalk/strip-ansi",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "strip-bom-string@1.0.0": {
+    "url": "github.com/jonschlinkert/strip-bom-string",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "strip-bom@1.0.0": {
+    "url": "github.com/sindresorhus/strip-bom",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "strip-eof@1.0.0": {
+    "url": "github.com/sindresorhus/strip-eof",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "strip-json-comments@2.0.1": {
+    "url": "github.com/sindresorhus/strip-json-comments",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "supports-color@2.0.0": {
+    "url": "github.com/chalk/supports-color",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "supports-color@5.4.0": {
+    "url": "github.com/chalk/supports-color",
+    "parent": [
+      "mocha@5.2.0"
+    ],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "supports-color@5.5.0": {
+    "url": "github.com/chalk/supports-color",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "table@5.1.1": {
+    "url": "github.com/gajus/table",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "text-table@0.2.0": {
+    "url": "github.com/substack/text-table",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "through2@0.6.5": {
+    "url": "github.com/rvagg/through2",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "through2@2.0.5": {
+    "url": "github.com/rvagg/through2",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "through@2.3.8": {
+    "url": "github.com/dominictarr/through",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "tildify@1.2.0": {
+    "url": "github.com/sindresorhus/tildify",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "time-stamp@1.1.0": {
+    "url": "github.com/jonschlinkert/time-stamp",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "timers-ext@0.1.7": {
+    "url": "github.com/medikoo/timers-ext",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "tmp@0.0.33": {
+    "url": "github.com/raszi/node-tmp",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "to-object-path@0.3.0": {
+    "url": "github.com/jonschlinkert/to-object-path",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "to-regex-range@2.1.1": {
+    "url": "github.com/micromatch/to-regex-range",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "to-regex@3.0.2": {
+    "url": "github.com/jonschlinkert/to-regex",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "tslib@1.9.3": {
+    "url": "github.com/Microsoft/tslib",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "type-check@0.3.2": {
+    "url": "github.com/gkz/type-check",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "uglify-js@3.4.9": {
+    "url": "github.com/mishoo/UglifyJS2",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "unc-path-regex@0.1.2": {
+    "url": "github.com/regexhq/unc-path-regex",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "union-value@1.0.0": {
+    "url": "github.com/jonschlinkert/union-value",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "unique-stream@1.0.0": {
+    "url": "github.com/eugeneware/unique-stream",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "unset-value@1.0.0": {
+    "url": "github.com/jonschlinkert/unset-value",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "uri-js@4.2.2": {
+    "url": "github.com/garycourt/uri-js",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "urix@0.1.0": {
+    "url": "github.com/lydell/urix",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "use@3.1.1": {
+    "url": "github.com/jonschlinkert/use",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "user-home@1.1.1": {
+    "url": "github.com/sindresorhus/user-home",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "util-deprecate@1.0.2": {
+    "url": "github.com/TooTallNate/util-deprecate",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "v8flags@2.1.1": {
+    "url": "github.com/tkellen/node-v8flags",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "vinyl-fs@0.3.14": {
+    "url": "github.com/wearefractal/vinyl-fs",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "vinyl-sourcemaps-apply@0.2.1": {
+    "url": "github.com/floridoo/vinyl-sourcemaps-apply",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "vinyl@0.4.6": {
+    "url": "github.com/wearefractal/vinyl",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "vinyl@0.5.3": {
+    "url": "github.com/wearefractal/vinyl",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "which@1.3.1": {
+    "url": "github.com/isaacs/node-which",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "wordwrap@1.0.0": {
+    "url": "github.com/substack/node-wordwrap",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "wrappy@1.0.2": {
+    "url": "github.com/npm/wrappy",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "write@0.2.1": {
+    "url": "github.com/jonschlinkert/write",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  },
+  "xtend@4.0.1": {
+    "url": "github.com/Raynos/xtend",
+    "parent": [],
+    "message": "GitHub repository",
+    "command": null
+  }
+}

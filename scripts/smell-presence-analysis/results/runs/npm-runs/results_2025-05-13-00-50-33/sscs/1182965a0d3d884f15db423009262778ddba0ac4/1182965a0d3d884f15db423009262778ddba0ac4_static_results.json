@@ -1,0 +1,2713 @@
+{
+    "@isaacs/cliui@8.0.2": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/yargs/cliui",
+            "github_url": "https://github.com/yargs/cliui",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "8.0.2",
+                "is_sha": true,
+                "sha": "aa397fedbd0550c9925af6b62f970de663285641",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 14,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "@isaacs/cliui",
+            "package_version": "8.0.2",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "@paulmillr/jsbt@0.2.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/paulmillr/jsbt",
+            "github_url": "https://github.com/paulmillr/jsbt",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "0.2.1",
+                "is_sha": true,
+                "sha": "470f566d06942c489c7af3b67495ed5b07eddcc7",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 0,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "@paulmillr/jsbt",
+            "package_version": "0.2.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "@pkgjs/parseargs@0.11.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/pkgjs/parseargs",
+            "github_url": "https://github.com/pkgjs/parseargs",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "0.11.0",
+                "is_sha": true,
+                "sha": "1e3a94a5f8fd42e7b56ac4a672adcb224ee3c9ff",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 21,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "@pkgjs/parseargs",
+            "package_version": "0.11.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "@sinonjs/commons@1.8.6": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sinonjs/commons",
+            "github_url": "https://github.com/sinonjs/commons",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "1.8.6",
+                "is_sha": true,
+                "sha": "280b51059b367386575f8d21b415d99417ae2de6",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 2,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "@sinonjs/commons",
+            "package_version": "1.8.6",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "@sinonjs/commons@3.0.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sinonjs/commons",
+            "github_url": "https://github.com/sinonjs/commons",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "3.0.1",
+                "is_sha": true,
+                "sha": "4f87da4eda7bfc3ec81296bf22524240ce562cb2",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 2,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "@sinonjs/commons",
+            "package_version": "3.0.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "@sinonjs/fake-timers@11.3.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sinonjs/fake-timers",
+            "github_url": "https://github.com/sinonjs/fake-timers",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "11.3.1",
+                "is_sha": true,
+                "sha": "c1368306d459d93b4c260d782309cc36ee344bad",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 12,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "@sinonjs/fake-timers",
+            "package_version": "11.3.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "@sinonjs/fake-timers@8.1.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sinonjs/fake-timers",
+            "github_url": "https://github.com/sinonjs/fake-timers",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "8.1.0",
+                "is_sha": true,
+                "sha": "4e7da5c44207ccee06a85773f4d3cea907476720",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 12,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "@sinonjs/fake-timers",
+            "package_version": "8.1.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "@sinonjs/samsam@6.1.3": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sinonjs/samsam",
+            "github_url": "https://github.com/sinonjs/samsam",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "6.1.3",
+                "is_sha": true,
+                "sha": "5a5b4cbb634459f50dd057b31b381f5e034dec8b",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 9,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "@sinonjs/samsam",
+            "package_version": "6.1.3",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "@sinonjs/text-encoding@0.7.3": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sinonjs/text-encoding",
+            "github_url": "https://github.com/sinonjs/text-encoding",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "0.7.3",
+                "is_sha": true,
+                "sha": "b09487fda94c934da8a36a2f15bed8940d797989",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": "https://github.com/inexorabletash/text-encoding",
+            "open_issues_count": 0,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "@sinonjs/text-encoding",
+            "package_version": "0.7.3",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "@types/node@20.14.8": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/DefinitelyTyped/DefinitelyTyped",
+            "github_url": "https://github.com/definitelytyped/definitelytyped",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": false,
+                "tag_version": "20.14.8",
+                "is_sha": false,
+                "sha": null,
+                "url": null,
+                "message": "Tag 20.14.8 not found in the repo",
+                "status_code": 404
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 710,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "@types/node",
+            "package_version": "20.14.8",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "ansi-regex@5.0.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chalk/ansi-regex",
+            "github_url": "https://github.com/chalk/ansi-regex",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "5.0.1",
+                "is_sha": true,
+                "sha": "a9babce885cf19c363cf1d1c645f834592c3f7a4",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 2,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "ansi-regex",
+            "package_version": "5.0.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "ansi-regex@6.0.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chalk/ansi-regex",
+            "github_url": "https://github.com/chalk/ansi-regex",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "6.0.1",
+                "is_sha": true,
+                "sha": "d908492e0070f26552fad1b25e339aff9011ae8b",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 2,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "ansi-regex",
+            "package_version": "6.0.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "ansi-styles@4.3.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chalk/ansi-styles",
+            "github_url": "https://github.com/chalk/ansi-styles",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "4.3.0",
+                "is_sha": true,
+                "sha": "2d02d5bd070f733179007f0904eb5fb41090395a",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 0,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "ansi-styles",
+            "package_version": "4.3.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "ansi-styles@6.2.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chalk/ansi-styles",
+            "github_url": "https://github.com/chalk/ansi-styles",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "6.2.1",
+                "is_sha": true,
+                "sha": "c325165daa029dad038c12118d2bf20aa4cf3a77",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 0,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "ansi-styles",
+            "package_version": "6.2.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "assertion-error@1.1.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chaijs/assertion-error",
+            "github_url": "https://github.com/chaijs/assertion-error",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "1.1.0",
+                "is_sha": true,
+                "sha": "faa3f8cbbdba74d2760f9d2e95c008ba9ce4812e",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 3,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "assertion-error",
+            "package_version": "1.1.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "balanced-match@1.0.2": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/juliangruber/balanced-match",
+            "github_url": "https://github.com/juliangruber/balanced-match",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "1.0.2",
+                "is_sha": true,
+                "sha": "c7412e09b95d6ad97fd1e2996f6adca7626a9ae8",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 5,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "balanced-match",
+            "package_version": "1.0.2",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "brace-expansion@2.0.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/juliangruber/brace-expansion",
+            "github_url": "https://github.com/juliangruber/brace-expansion",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "2.0.1",
+                "is_sha": true,
+                "sha": "b9c0e57027317a8d0a56a7ccee28fc478d847da2",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 6,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "brace-expansion",
+            "package_version": "2.0.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "chai@4.3.4": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chaijs/chai",
+            "github_url": "https://github.com/chaijs/chai",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "4.3.4",
+                "is_sha": true,
+                "sha": "ab41ed86cc154e1df125b16e74abaa0d6f6ade82",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 86,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "chai",
+            "package_version": "4.3.4",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "check-error@1.0.3": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chaijs/check-error",
+            "github_url": "https://github.com/chaijs/check-error",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "1.0.3",
+                "is_sha": true,
+                "sha": "a0052c7ec4e37333927cf80bad9f8d84ad260b79",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 20,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "check-error",
+            "package_version": "1.0.3",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "color-convert@2.0.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/Qix-/color-convert",
+            "github_url": "https://github.com/qix-/color-convert",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "2.0.1",
+                "is_sha": true,
+                "sha": "e1cb7846258e1d7aa25873814684d4fbbbca53ed",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 14,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "color-convert",
+            "package_version": "2.0.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "color-name@1.1.4": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/colorjs/color-name",
+            "github_url": "https://github.com/colorjs/color-name",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "1.1.4",
+                "is_sha": true,
+                "sha": "4536ce5944f56659a2dfb2198eaf81b5ad5f2ad9",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 0,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "color-name",
+            "package_version": "1.1.4",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "cross-spawn@7.0.3": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/moxystudio/node-cross-spawn",
+            "github_url": "https://github.com/moxystudio/node-cross-spawn",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "7.0.3",
+                "is_sha": true,
+                "sha": "7bc42bc409d9da6ad691df8d1d5ef69003bf1dc3",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 26,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "cross-spawn",
+            "package_version": "7.0.3",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "deep-eql@3.0.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chaijs/deep-eql",
+            "github_url": "https://github.com/chaijs/deep-eql",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "3.0.1",
+                "is_sha": true,
+                "sha": "04d6da6518f8ddc288638ca42503752028810120",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 21,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "deep-eql",
+            "package_version": "3.0.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "diff@5.2.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/kpdecker/jsdiff",
+            "github_url": "https://github.com/kpdecker/jsdiff",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "5.2.0",
+                "is_sha": false,
+                "sha": null,
+                "url": "https://api.github.com/repos/kpdecker/jsdiff/git/ref/tags/v5.2.0",
+                "message": "Tag v5.2.0 is found in the repo",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 21,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "diff",
+            "package_version": "5.2.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "eastasianwidth@0.2.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/komagata/eastasianwidth",
+            "github_url": "https://github.com/komagata/eastasianwidth",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "0.2.0",
+                "is_sha": true,
+                "sha": "b89f04d44dc786885615e94cd6e2ba1ef7866fa4",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 3,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "eastasianwidth",
+            "package_version": "0.2.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "emoji-regex@8.0.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/mathiasbynens/emoji-regex",
+            "github_url": "https://github.com/mathiasbynens/emoji-regex",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "8.0.0",
+                "is_sha": true,
+                "sha": "a9f2e514523d4c0931974aff5059052da10c52c5",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 11,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "emoji-regex",
+            "package_version": "8.0.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "emoji-regex@9.2.2": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/mathiasbynens/emoji-regex",
+            "github_url": "https://github.com/mathiasbynens/emoji-regex",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "9.2.2",
+                "is_sha": true,
+                "sha": "0ffa466d7ab65af304d03dddd3a92a2d8268e7ce",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 11,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "emoji-regex",
+            "package_version": "9.2.2",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "foreground-child@3.3.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/tapjs/foreground-child",
+            "github_url": "https://github.com/tapjs/foreground-child",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "3.3.0",
+                "is_sha": true,
+                "sha": "f2e72ffc2a8077d26e1cacfc6944f16befaeafc8",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 5,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "foreground-child",
+            "package_version": "3.3.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "get-func-name@2.0.2": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chaijs/get-func-name",
+            "github_url": "https://github.com/chaijs/get-func-name",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "2.0.2",
+                "is_sha": true,
+                "sha": "83ce12db3bd4e892b4c8fc9443988e1385cf0667",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 5,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "get-func-name",
+            "package_version": "2.0.2",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "glob@10.4.5": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/isaacs/node-glob",
+            "github_url": "https://github.com/isaacs/node-glob",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "10.4.5",
+                "is_sha": true,
+                "sha": "1f0c1ca01a5f256cd17f543f83e9aaeedd133939",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 21,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "glob",
+            "package_version": "10.4.5",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "has-flag@4.0.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sindresorhus/has-flag",
+            "github_url": "https://github.com/sindresorhus/has-flag",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "4.0.0",
+                "is_sha": true,
+                "sha": "474aa39afca7333d356c022fc5be4d31732bbba3",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 0,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "has-flag",
+            "package_version": "4.0.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "is-fullwidth-code-point@3.0.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sindresorhus/is-fullwidth-code-point",
+            "github_url": "https://github.com/sindresorhus/is-fullwidth-code-point",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "3.0.0",
+                "is_sha": true,
+                "sha": "80e5e314d86e5f76bd1b0573aa9d33e615a372db",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 0,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "is-fullwidth-code-point",
+            "package_version": "3.0.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "isexe@2.0.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/isaacs/isexe",
+            "github_url": "https://github.com/isaacs/isexe",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "2.0.0",
+                "is_sha": true,
+                "sha": "10f8be491aab2e158c7e20df64a7f90ab5b5475c",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 17,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "isexe",
+            "package_version": "2.0.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "jackspeak@3.4.3": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/isaacs/jackspeak",
+            "github_url": "https://github.com/isaacs/jackspeak",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "3.4.3",
+                "is_sha": true,
+                "sha": "cf0753629f71a6e34a7c6550e00fa1575dfe05b8",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 1,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "jackspeak",
+            "package_version": "3.4.3",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "just-extend@6.2.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/angus-c/just",
+            "github_url": "https://github.com/angus-c/just",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "6.2.0",
+                "is_sha": true,
+                "sha": "192fc6b964b038757e30d239a1f3547c9eb6e30f",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 52,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "just-extend",
+            "package_version": "6.2.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "lodash.get@4.4.2": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/lodash/lodash",
+            "github_url": "https://github.com/lodash/lodash",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": false,
+                "tag_version": "4.4.2",
+                "is_sha": false,
+                "sha": null,
+                "url": null,
+                "message": "Tag 4.4.2 not found in the repo",
+                "status_code": 404
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 97,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "lodash.get",
+            "package_version": "4.4.2",
+            "deprecated_in_version": true,
+            "provenance_in_version": false,
+            "all_deprecated": true,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "lru-cache@10.4.3": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/isaacs/node-lru-cache",
+            "github_url": "https://github.com/isaacs/node-lru-cache",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "10.4.3",
+                "is_sha": true,
+                "sha": "228d71964978ad71a7dcea664c494468c780b956",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 11,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "lru-cache",
+            "package_version": "10.4.3",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "minimatch@9.0.5": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/isaacs/minimatch",
+            "github_url": "https://github.com/isaacs/minimatch",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "9.0.5",
+                "is_sha": true,
+                "sha": "0de7f45232cad5e3e49e4eb7cd9b6e124ed04b84",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 14,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "minimatch",
+            "package_version": "9.0.5",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "minipass@7.1.2": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/isaacs/minipass",
+            "github_url": "https://github.com/isaacs/minipass",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "7.1.2",
+                "is_sha": true,
+                "sha": "1fc7b914533c367ac00a982051849add2169f641",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 1,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "minipass",
+            "package_version": "7.1.2",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "nise@5.1.9": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sinonjs/nise",
+            "github_url": "https://github.com/sinonjs/nise",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": false,
+                "tag_version": "5.1.9",
+                "is_sha": true,
+                "sha": "e2fe0697b5a3bf2df0e01c57c8a921dee47a1eb4",
+                "url": null,
+                "message": "Tag 5.1.9 not found in the repo",
+                "status_code": 404
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 10,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "nise",
+            "package_version": "5.1.9",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "package-json-from-dist@1.0.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/isaacs/package-json-from-dist",
+            "github_url": "https://github.com/isaacs/package-json-from-dist",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "1.0.0",
+                "is_sha": true,
+                "sha": "b5d50a5510b66886238de2a0d508987da17bb7d8",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 0,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "package-json-from-dist",
+            "package_version": "1.0.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "path-key@3.1.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sindresorhus/path-key",
+            "github_url": "https://github.com/sindresorhus/path-key",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "3.1.1",
+                "is_sha": true,
+                "sha": "caea269db3a5eb0c09c793f4be5435312971d2fa",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 1,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "path-key",
+            "package_version": "3.1.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "path-scurry@1.11.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/isaacs/path-scurry",
+            "github_url": "https://github.com/isaacs/path-scurry",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "1.11.1",
+                "is_sha": true,
+                "sha": "766c9b06aacef86b43c9999cabc5eb824b5958d6",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 3,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "path-scurry",
+            "package_version": "1.11.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "path-to-regexp@6.3.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/pillarjs/path-to-regexp",
+            "github_url": "https://github.com/pillarjs/path-to-regexp",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "6.3.0",
+                "is_sha": true,
+                "sha": "75a92c3d7c42159f459ab42f346899152906ea8c",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 10,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "path-to-regexp",
+            "package_version": "6.3.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "pathval@1.1.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chaijs/pathval",
+            "github_url": "https://github.com/chaijs/pathval",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "1.1.1",
+                "is_sha": true,
+                "sha": "db6c3e39c39859564704b7f37149082689f1b172",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 1,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "pathval",
+            "package_version": "1.1.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "prettier@3.1.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/prettier/prettier",
+            "github_url": "https://github.com/prettier/prettier",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "3.1.1",
+                "is_sha": true,
+                "sha": "7988d2f090c84fd3b9eed9127b25f0e980611edd",
+                "url": "https://api.github.com/repos/prettier/prettier/git/ref/tags/3.1.1",
+                "message": "Tag 3.1.1 is found in the repo",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 1444,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "prettier",
+            "package_version": "3.1.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "readdirp@4.0.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/paulmillr/readdirp",
+            "github_url": "https://github.com/paulmillr/readdirp",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "4.0.1",
+                "is_sha": true,
+                "sha": "0e4358920a5a5a4a405f549e7f8fc8641acc1555",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 2,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "readdirp",
+            "package_version": "4.0.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": true,
+            "all_deprecated": false,
+            "provenance_url": "https://registry.npmjs.org/-/npm/v1/attestations/readdirp@4.0.1",
+            "provenance_info": {
+                "predicateType": "https://slsa.dev/provenance/v1"
+            },
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "rimraf@5.0.5": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/isaacs/rimraf",
+            "github_url": "https://github.com/isaacs/rimraf",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "5.0.5",
+                "is_sha": true,
+                "sha": "3cc9222c646393713f671b807731f2d70f554850",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 13,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "rimraf",
+            "package_version": "5.0.5",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "shebang-command@2.0.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/kevva/shebang-command",
+            "github_url": "https://github.com/kevva/shebang-command",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "2.0.0",
+                "is_sha": true,
+                "sha": "003c4c7d6882d029aa8b3e5777716d726894d734",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 3,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "shebang-command",
+            "package_version": "2.0.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "shebang-regex@3.0.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sindresorhus/shebang-regex",
+            "github_url": "https://github.com/sindresorhus/shebang-regex",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "3.0.0",
+                "is_sha": true,
+                "sha": "27a9a6f0f85c04b9c37a43cf7503fdb58f5ae8d6",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 0,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "shebang-regex",
+            "package_version": "3.0.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "signal-exit@4.1.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/tapjs/signal-exit",
+            "github_url": "https://github.com/tapjs/signal-exit",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "4.1.0",
+                "is_sha": true,
+                "sha": "458776d9cf8be89712aa1f7b45bb2163ce15ef4a",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 6,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "signal-exit",
+            "package_version": "4.1.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "sinon-chai@3.7.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/domenic/sinon-chai",
+            "github_url": "https://github.com/domenic/sinon-chai",
+            "github_exists": true,
+            "github_redirected": true,
+            "redirected_repo": "https://github.com/chaijs/sinon-chai",
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "3.7.0",
+                "is_sha": true,
+                "sha": "74a1bc0d5b9518341f255bf771c15bddff97664e",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 20,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "sinon-chai",
+            "package_version": "3.7.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "sinon@12.0.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sinonjs/sinon",
+            "github_url": "https://github.com/sinonjs/sinon",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "12.0.1",
+                "is_sha": true,
+                "sha": "c8987c875cb2d7b3aed407bfa9c28c5dffded79f",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 42,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "sinon",
+            "package_version": "12.0.1",
+            "deprecated_in_version": true,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "string-width@4.2.3": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sindresorhus/string-width",
+            "github_url": "https://github.com/sindresorhus/string-width",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "4.2.3",
+                "is_sha": true,
+                "sha": "e7a2755c834246c59a4cc5de9471bef2d531a6b1",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 10,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "string-width",
+            "package_version": "4.2.3",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "string-width@5.1.2": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/sindresorhus/string-width",
+            "github_url": "https://github.com/sindresorhus/string-width",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "5.1.2",
+                "is_sha": true,
+                "sha": "9f90691968ad356c807aaad1a5ed98d795749932",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 10,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "string-width",
+            "package_version": "5.1.2",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "strip-ansi@6.0.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chalk/strip-ansi",
+            "github_url": "https://github.com/chalk/strip-ansi",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "6.0.1",
+                "is_sha": true,
+                "sha": "59533da99981f9d550de1ae0eb9d1a93c2383be3",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 2,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "strip-ansi",
+            "package_version": "6.0.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "strip-ansi@7.1.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chalk/strip-ansi",
+            "github_url": "https://github.com/chalk/strip-ansi",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "7.1.0",
+                "is_sha": true,
+                "sha": "1fdc531d4046cbaa830460f5c74452bf1f0a0884",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 2,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "strip-ansi",
+            "package_version": "7.1.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "supports-color@7.2.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chalk/supports-color",
+            "github_url": "https://github.com/chalk/supports-color",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "7.2.0",
+                "is_sha": true,
+                "sha": "c5edf46896d1fc1826cb1183a60d61eecb65d749",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 2,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "supports-color",
+            "package_version": "7.2.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "type-detect@4.0.8": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chaijs/type-detect",
+            "github_url": "https://github.com/chaijs/type-detect",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "4.0.8",
+                "is_sha": true,
+                "sha": "a40d8395f06507edd3e4806cb3fe5a878f6a6551",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 8,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "type-detect",
+            "package_version": "4.0.8",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [
+            "@sinonjs/commons@1.8.6",
+            "@sinonjs/commons@3.0.1"
+        ],
+        "command": null
+    },
+    "type-detect@4.1.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chaijs/type-detect",
+            "github_url": "https://github.com/chaijs/type-detect",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "4.1.0",
+                "is_sha": true,
+                "sha": "9a771dcec525f34cbeacde6236b5a916a8f8d5fd",
+                "url": "https://api.github.com/repos/chaijs/type-detect/git/ref/tags/v4.1.0",
+                "message": "Tag v4.1.0 is found in the repo",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 8,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "type-detect",
+            "package_version": "4.1.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "typescript@5.5.2": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/Microsoft/TypeScript",
+            "github_url": "https://github.com/microsoft/typescript",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "5.5.2",
+                "is_sha": true,
+                "sha": "ce2e60e4ea15a65992e54a9e8877d16be9d42abb",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 6042,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "typescript",
+            "package_version": "5.5.2",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "undici-types@5.26.5": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/nodejs/undici",
+            "github_url": "https://github.com/nodejs/undici",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "5.26.5",
+                "is_sha": true,
+                "sha": "9197790ae0d015b40b75fd0c5cdb7420704b5272",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 273,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "undici-types",
+            "package_version": "5.26.5",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "upath@2.0.1": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/anodynos/upath",
+            "github_url": "https://github.com/anodynos/upath",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "2.0.1",
+                "is_sha": true,
+                "sha": "04a89182fd2029365876e44896f828182369618f",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 3,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "upath",
+            "package_version": "2.0.1",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "which@2.0.2": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/isaacs/node-which",
+            "github_url": "https://github.com/isaacs/node-which",
+            "github_exists": true,
+            "github_redirected": true,
+            "redirected_repo": "https://github.com/npm/node-which",
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "2.0.2",
+                "is_sha": true,
+                "sha": "6a822d836de79f92fb3170f685a6e283fbfeff87",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 4,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "which",
+            "package_version": "2.0.2",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "wrap-ansi@7.0.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chalk/wrap-ansi",
+            "github_url": "https://github.com/chalk/wrap-ansi",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "7.0.0",
+                "is_sha": true,
+                "sha": "c81bf7d6d0a9c1a49f7ce6413fbc8fbcf9938330",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 5,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "wrap-ansi",
+            "package_version": "7.0.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    },
+    "wrap-ansi@8.1.0": {
+        "source_code": {
+            "is_github": true,
+            "github_api": "https://api.github.com/repos/chalk/wrap-ansi",
+            "github_url": "https://github.com/chalk/wrap-ansi",
+            "github_exists": true,
+            "github_redirected": false,
+            "redirected_repo": null,
+            "status_code": 200,
+            "archived": false,
+            "is_fork": null,
+            "source_code_version": {
+                "exists": true,
+                "tag_version": "8.1.0",
+                "is_sha": true,
+                "sha": "115090266b0ebb1797032582de78d617575778ab",
+                "url": null,
+                "message": "gitHead found in package metadata",
+                "status_code": 200
+            },
+            "parent_repo_link": null,
+            "open_issues_count": 5,
+            "error": "No error message."
+        },
+        "package_info": {
+            "package_only_name": "wrap-ansi",
+            "package_version": "8.1.0",
+            "deprecated_in_version": false,
+            "provenance_in_version": false,
+            "all_deprecated": false,
+            "provenance_url": null,
+            "provenance_info": null,
+            "status_code": 200
+        },
+        "code_signature": {
+            "signature_present": true,
+            "signature_valid": true
+        },
+        "parent": [],
+        "command": null
+    }
+}

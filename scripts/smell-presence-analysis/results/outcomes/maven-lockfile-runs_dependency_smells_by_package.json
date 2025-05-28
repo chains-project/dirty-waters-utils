@@ -1,0 +1,4111 @@
+{
+  "metadata": {
+    "package_manager": "results/runs/maven-lockfile-runs",
+    "total_projects": 3,
+    "total_unique_packages": 251,
+    "average_packages_per_project": 166.66666666666666
+  },
+  "projects": {
+    "results_2025-05-16-15-04-33": {
+      "project_name": "chains-project/maven-lockfile",
+      "report_creation_time": "2025-05-16 15:44:47",
+      "folder_path": "results/runs/maven-lockfile-runs/results_2025-05-16-15-04-33",
+      "total_packages": 466,
+      "total_smells_detected": 99
+    },
+    "results_2025-05-16-14-13-13": {
+      "project_name": "chains-project/maven-lockfile",
+      "report_creation_time": "2025-05-16 15:04:32",
+      "folder_path": "results/runs/maven-lockfile-runs/results_2025-05-16-14-13-13",
+      "total_packages": 486,
+      "total_smells_detected": 114
+    },
+    "results_2025-05-16-15-44-48": {
+      "project_name": "chains-project/maven-lockfile",
+      "report_creation_time": "2025-05-16 16:11:42",
+      "folder_path": "results/runs/maven-lockfile-runs/results_2025-05-16-15-44-48",
+      "total_packages": 466,
+      "total_smells_detected": 76
+    }
+  },
+  "packages": {
+    "org.cyclonedx:cyclonedx-maven-plugin@2.9.1": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "commons-codec:commons-codec@1.17.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.ow2.asm:asm@9.7",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.yaml:snakeyaml@2.2",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.ant:ant-launcher@1.10.15": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "https://gitbox.apache.org/repos/asf/ant.git/ant-launcher"
+    },
+    "io.vertx:vertx-web-client@4.5.14": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [
+        {
+          "package": "io.vertx:vertx-auth-common@4.5.14",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "io.vertx:vertx-web-common@4.5.14",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "io.vertx:vertx-uri-template@4.5.14",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "jakarta.el:jakarta.el-api@5.0.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "jakarta.enterprise:jakarta.enterprise.cdi-api@4.1.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "jakarta.el:jakarta.el-api@5.0.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "jakarta.interceptor:jakarta.interceptor-api@2.2.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.tukaani:xz@1.9": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "https://git.tukaani.org/?p=xz-java.git"
+    },
+    "io.vertx:vertx-uri-template@4.5.14": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "commons-io:commons-io@2.11.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.aesh:aesh@2.8.2": {
+      "direct_smells": [
+        "inaccessible_commit_sha",
+        "no_code_signature"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "commons-digester:commons-digester@1.8": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://svn.apache.org/repos/asf/jakarta/commons/proper/digester/trunk"
+    },
+    "org.apache.ant:ant@1.10.15": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "https://gitbox.apache.org/repos/asf/ant.git/ant"
+    },
+    "org.apache.commons:commons-lang3@3.14.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.commons:commons-lang3@3.17.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "commons-codec:commons-codec@1.18.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "com.kohlschutter.junixsocket:junixsocket-core@2.10.1": {
+      "direct_smells": [
+        "no_code_signature"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.ow2.asm:asm-util@9.8": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [
+        {
+          "package": "org.ow2.asm:asm-analysis@9.8",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2,
+      "non_github_url": "https://gitlab.ow2.org/asm/asm/"
+    },
+    "org.apache.maven.plugins:maven-artifact-plugin@3.6.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "com.google.collections:google-collections@1.0",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.doxia:doxia-skin-model@1.11.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.eclipse.aether:aether-api@0.9.0.M2",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.httpcomponents:httpcore@4.4.14",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "commons-digester:commons-digester@1.8",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "commons-chain:commons-chain@1.1",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.velocity:velocity-tools@2.0",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.httpcomponents:httpclient@4.5.13",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.eclipse.aether:aether-impl@0.9.0.M2",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.eclipse.aether:aether-spi@0.9.0.M2",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.commons:commons-lang3@3.8.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.maven.doxia:doxia-site-renderer@1.11.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "commons-lang:commons-lang@2.4",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "dom4j:dom4j@1.1",
+          "smells": [
+            "no_code_signature",
+            "no_source_code_url",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.doxia:doxia-decoration-model@1.11.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.sonatype.plexus:plexus-sec-dispatcher@1.3",
+          "smells": [
+            "no_source_code_url",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.sonatype.plexus:plexus-cipher@1.4",
+          "smells": [
+            "no_source_code_url",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.xbean:xbean-reflect@3.7",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "oro:oro@2.0.8",
+          "smells": [
+            "no_code_signature",
+            "no_source_code_url",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.eclipse.aether:aether-util@0.9.0.M2",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.codehaus.plexus:plexus-component-annotations@1.5.5",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "commons-beanutils:commons-beanutils@1.7.0",
+          "smells": [
+            "no_code_signature",
+            "no_source_code_url",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.velocity:velocity@1.7",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "commons-io:commons-io@2.18.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.twdata.maven:mojo-executor@2.4.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.eclipse.aether:aether-spi@0.9.0.M2": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://git.eclipse.org/c/aether/aether-core.git/tree/aether-spi/"
+    },
+    "io.github.crac:org-crac@0.1.3": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.commons:commons-compress@1.26.2": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.junit.platform:junit-platform-commons@1.12.2": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "com.diffplug.spotless:spotless-lib-extra@3.1.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.eclipse.jetty:jetty-util@9.4.56.v20240826": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "commons-io:commons-io@2.18.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.junit.jupiter:junit-jupiter-api@5.12.2": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.junit.platform:junit-platform-commons@1.12.2",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "io.smallrye.beanbag:smallrye-beanbag-maven@1.5.2": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.apache.httpcomponents:httpclient@4.5.14",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "javax.inject:javax.inject@1",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "commons-codec:commons-codec@1.18.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.httpcomponents:httpcore@4.4.16",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "commons-codec:commons-codec@1.17.2",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "io.quarkus.gizmo:gizmo@1.9.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.ow2.asm:asm-util@9.8",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "commons-io:commons-io@2.16.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.eclipse.jetty:jetty-util-ajax@9.4.56.v20240826": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "io.quarkus:quarkus-junit5@3.22.1": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.eclipse.sisu:org.eclipse.sisu.inject@0.9.0.M3",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "io.quarkus.platform:quarkus-maven-plugin@3.22.1": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.jdom:jdom2@2.0.6.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.commons:commons-collections4@4.4",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.twdata.maven:mojo-executor@2.4.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.commons:commons-compress@1.27.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "commons-beanutils:commons-beanutils@1.7.0": {
+      "direct_smells": [
+        "no_code_signature",
+        "no_source_code_url",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.maven.plugins:maven-site-plugin@3.21.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.eclipse.jetty:jetty-webapp@9.4.56.v20240826",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.eclipse.jetty:jetty-server@9.4.56.v20240826",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "commons-beanutils:commons-beanutils@1.9.4",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.eclipse.jetty:jetty-security@9.4.56.v20240826",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.commons:commons-text@1.12.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.maven.doxia:doxia-integration-tools@2.0.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.commons:commons-digester3@3.2",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "commons-logging:commons-logging@1.2",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.commons:commons-compress@1.26.2",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "javax.servlet:javax.servlet-api@3.1.0",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.doxia:doxia-skin-model@2.0.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.eclipse.jetty:jetty-servlet@9.4.56.v20240826",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.eclipse.jetty:jetty-util@9.4.56.v20240826",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.codehaus.plexus:plexus-i18n@1.0-beta-10",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.eclipse.jetty:jetty-xml@9.4.56.v20240826",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.maven.doxia:doxia-site-renderer@2.0.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.eclipse.jetty:jetty-util-ajax@9.4.56.v20240826",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.eclipse.jetty:jetty-io@9.4.56.v20240826",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "commons-collections:commons-collections@3.2.2",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.eclipse.jetty:jetty-http@9.4.56.v20240826",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.maven.doxia:doxia-site-model@2.0.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "commons-codec:commons-codec@1.17.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.tukaani:xz@1.9",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.maven.plugins:maven-jar-plugin@3.4.2": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.iq80.snappy:snappy@0.4",
+          "smells": [
+            "repo_url_404",
+            "other_info"
+          ]
+        },
+        {
+          "package": "commons-codec:commons-codec@1.16.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.commons:commons-compress@1.26.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.eclipse.jetty:jetty-http@9.4.56.v20240826": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "jakarta.interceptor:jakarta.interceptor-api@2.2.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.commons:commons-compress@1.27.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.velocity:velocity@1.7": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://svn.apache.org/viewvc/velocity/engine/trunk"
+    },
+    "org.apache.maven.doxia:doxia-site-model@2.0.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "com.google.collections:google-collections@1.0": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://code.google.com/p/google-collections/source/browse/"
+    },
+    "io.quarkus:quarkus-bootstrap-maven-resolver@3.22.1": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.eclipse.sisu:org.eclipse.sisu.plexus@0.9.0.M3",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.apache.httpcomponents:httpcore@4.4.14": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.codehaus.gmavenplus:gmavenplus-plugin@4.2.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.apache.ivy:ivy@2.5.3",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.ant:ant@1.10.15",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "commons-io:commons-io@2.18.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.ant:ant-launcher@1.10.15",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.apache.commons:commons-collections4@4.4": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.ow2.asm:asm-analysis@9.8": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2,
+      "non_github_url": "https://gitlab.ow2.org/asm/asm/"
+    },
+    "org.iq80.snappy:snappy@0.4": {
+      "direct_smells": [
+        "repo_url_404",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "commons-codec:commons-codec@1.16.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.commons:commons-text@1.12.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.velocity:velocity-tools@2.0": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://svn.apache.org/repos/asf/velocity/tools/trunk"
+    },
+    "io.quarkus:quarkus-test-common@3.22.1": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.jboss.logging:commons-logging-jboss-logging@1.0.0.Final",
+          "smells": [
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "commons-io:commons-io@2.19.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "com.google.inject:guice@5.1.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "aopalliance:aopalliance@1.0",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.httpcomponents:httpclient@4.5.13": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.httpcomponents:httpcore@4.4.16": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "commons-codec:commons-codec@1.17.2": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.eclipse.sisu:org.eclipse.sisu.inject@0.9.0.M3": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.maven.plugins:maven-enforcer-plugin@3.5.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "commons-io:commons-io@2.16.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.commons:commons-lang3@3.14.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "dom4j:dom4j@1.1": {
+      "direct_smells": [
+        "no_code_signature",
+        "no_source_code_url",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.commons:commons-lang3@3.12.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "com.google.android:annotations@4.1.1.4": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2,
+      "non_github_url": "https://android.git.kernel.org/"
+    },
+    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.18.3": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.yaml:snakeyaml@2.4",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "io.vertx:vertx-web-common@4.5.14": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "io.quarkus:quarkus-core-deployment@3.22.1": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.junit.platform:junit-platform-launcher@1.12.2",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.aesh:readline@2.6",
+          "smells": [
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "org.ow2.asm:asm-commons@9.8",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.aesh:aesh@2.8.2",
+          "smells": [
+            "inaccessible_commit_sha",
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "org.ow2.asm:asm@9.8",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.bouncycastle:bcutil-jdk18on@1.80": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.apache.maven.doxia:doxia-skin-model@2.0.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "io.quarkus:quarkus-bootstrap-runner@3.22.1": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "io.github.crac:org-crac@0.1.3",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.apache.maven:maven-embedder@3.9.9": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "commons-cli:commons-cli@1.8.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.google.guava:guava@33.4.8-jre",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.google.guava:guava@33.3.1-jre",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "com.google.guava:guava@32.0.1-jre": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "dev.equo.ide:solstice@1.8.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.bouncycastle:bcpg-jdk18on@1.78.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "io.quarkus.arc:arc@3.22.1": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.jboss.logging:jboss-logging@3.6.1.Final",
+          "smells": [
+            "no_code_signature"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "dev.sigstore:sigstore-maven-plugin@1.3.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "com.google.j2objc:j2objc-annotations@2.8",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "com.google.code.gson:gson@2.12.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.bouncycastle:bcpg-jdk18on@1.78.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.google.protobuf:protobuf-java@4.29.3",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.google.android:annotations@4.1.1.4",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "com.google.code.findbugs:jsr305@3.0.2",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "commons-codec:commons-codec@1.17.2",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.kohlschutter.junixsocket:junixsocket-core@2.10.1",
+          "smells": [
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "com.google.protobuf:protobuf-java-util@4.29.3",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.bouncycastle:bcprov-jdk18on@1.80",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.bouncycastle:bcutil-jdk18on@1.80",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.bouncycastle:bcpkix-jdk18on@1.80",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.google.guava:guava@32.0.1-jre",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.google.guava:listenablefuture@9999.0-empty-to-avoid-conflict-with-guava",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "com.diffplug.durian:durian-core@1.2.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.yaml:snakeyaml@2.2": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "https://bitbucket.org/snakeyaml/snakeyaml/src"
+    },
+    "jakarta.json:jakarta.json-api@2.1.3": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.kohsuke:github-api@1.326": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.apache.commons:commons-lang3@3.17.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "com.diffplug.durian:durian-io@1.2.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "io.quarkus:quarkus-core@3.22.1": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.jboss.threads:jboss-threads@3.8.0.Final",
+          "smells": [
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "org.jboss.slf4j:slf4j-jboss-logmanager@2.0.0.Final",
+          "smells": [
+            "inaccessible_commit_sha",
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "org.jboss.logmanager:jboss-logmanager@3.1.2.Final",
+          "smells": [
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "org.wildfly.common:wildfly-common@2.0.1",
+          "smells": [
+            "no_code_signature"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.ow2.asm:asm@9.8": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2,
+      "non_github_url": "https://gitlab.ow2.org/asm/asm/"
+    },
+    "org.apache.maven.doxia:doxia-skin-model@1.11.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.eclipse.aether:aether-api@0.9.0.M2": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://git.eclipse.org/c/aether/aether-core.git/tree/aether-api/"
+    },
+    "org.apache.maven.plugins:maven-compiler-plugin@3.14.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.apache.maven.shared:maven-shared-incremental@1.1",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.junit.jupiter:junit-jupiter-engine@5.12.2": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.junit.platform:junit-platform-engine@1.12.2",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.jboss.logging:commons-logging-jboss-logging@1.0.0.Final": {
+      "direct_smells": [
+        "no_code_signature"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.ow2.asm:asm@9.7": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "https://gitlab.ow2.org/asm/asm/"
+    },
+    "org.eclipse.jetty:jetty-server@9.4.56.v20240826": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.bouncycastle:bcprov-jdk18on@1.80": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.yaml:snakeyaml@2.4": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2,
+      "non_github_url": "https://bitbucket.org/snakeyaml/snakeyaml/src"
+    },
+    "org.eclipse.platform:org.eclipse.osgi@3.23.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "com.google.j2objc:j2objc-annotations@2.8": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2,
+      "non_github_url": "http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/j2objc-annotations"
+    },
+    "commons-cli:commons-cli@1.8.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.eclipse.jetty:jetty-security@9.4.56.v20240826": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.eclipse.jgit:org.eclipse.jgit@6.10.0.202406032230-r": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "https://git.eclipse.org/r/plugins/gitiles/jgit/jgit/org.eclipse.jgit"
+    },
+    "org.sonatype.plexus:plexus-build-api@0.0.7": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://svn.sonatype.org/spice/tags/plexus-build-api-0.0.7"
+    },
+    "com.google.guava:guava@33.4.8-jre": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "com.diffplug.durian:durian-collect@1.2.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.eclipse.aether:aether-impl@0.9.0.M2": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://git.eclipse.org/c/aether/aether-core.git/tree/aether-impl/"
+    },
+    "org.apache.maven.doxia:doxia-integration-tools@2.0.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.jboss.logging:jboss-logging@3.6.1.Final": {
+      "direct_smells": [
+        "no_code_signature"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.apache.maven.doxia:doxia-site-renderer@1.11.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.commons:commons-digester3@3.2": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://svn.apache.org/viewvc/commons/proper/digester/tags/DIGESTER3_3_2_RC2"
+    },
+    "aopalliance:aopalliance@1.0": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://aopalliance.sourceforge.net"
+    },
+    "org.junit.platform:junit-platform-launcher@1.12.2": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.sonatype.plexus:plexus-cipher@1.4": {
+      "direct_smells": [
+        "no_source_code_url",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.sonatype.plexus:plexus-sec-dispatcher@1.3": {
+      "direct_smells": [
+        "no_source_code_url",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.xbean:xbean-reflect@3.7": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://svn.apache.org/viewvc/geronimo/xbean/tags/xbean-3.7/xbean-reflect"
+    },
+    "org.jboss.slf4j:slf4j-jboss-logmanager@2.0.0.Final": {
+      "direct_smells": [
+        "inaccessible_commit_sha",
+        "no_code_signature"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.wildfly.common:wildfly-common@2.0.1": {
+      "direct_smells": [
+        "no_code_signature"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "oro:oro@2.0.8": {
+      "direct_smells": [
+        "no_code_signature",
+        "no_source_code_url",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.maven.shared:maven-shared-incremental@1.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/shared/tags/maven-shared-incremental-1.1"
+    },
+    "io.vertx:vertx-auth-common@4.5.14": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.eclipse.aether:aether-util@0.9.0.M2": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://git.eclipse.org/c/aether/aether-core.git/tree/aether-util/"
+    },
+    "org.apache.ivy:ivy@2.5.3": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2,
+      "non_github_url": "https://svn.apache.org/repos/asf/ant/ivy/core/trunk"
+    },
+    "org.jdom:jdom2@2.0.6.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.eclipse.jetty:jetty-xml@9.4.56.v20240826": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.jboss.logmanager:jboss-logmanager@3.1.2.Final": {
+      "direct_smells": [
+        "no_code_signature"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.aesh:readline@2.6": {
+      "direct_smells": [
+        "no_code_signature"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.codehaus.plexus:plexus-component-annotations@1.5.5": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://fisheye.codehaus.org/browse/plexus/plexus-containers/tags/plexus-containers-1.5.5/plexus-component-annotations"
+    },
+    "org.apache.commons:commons-compress@1.26.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "com.google.protobuf:protobuf-java-util@4.29.3": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.ow2.asm:asm-tree@9.8": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2,
+      "non_github_url": "https://gitlab.ow2.org/asm/asm/"
+    },
+    "com.google.protobuf:protobuf-java@4.29.3": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.eclipse.jetty:jetty-webapp@9.4.56.v20240826": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.apache.httpcomponents:httpclient@4.5.14": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "commons-codec:commons-codec@1.17.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "javax.inject:javax.inject@1": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://code.google.com/p/atinject/source/checkout"
+    },
+    "org.jboss.threads:jboss-threads@3.8.0.Final": {
+      "direct_smells": [
+        "no_code_signature"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.ow2.asm:asm-commons@9.8": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [
+        {
+          "package": "org.ow2.asm:asm-tree@9.8",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2,
+      "non_github_url": "https://gitlab.ow2.org/asm/asm/"
+    },
+    "commons-beanutils:commons-beanutils@1.9.4": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3"
+    },
+    "org.apache.maven.plugins:maven-surefire-plugin@3.5.3": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.ow2.asm:asm@9.7.1",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "com.google.guava:listenablefuture@9999.0-empty-to-avoid-conflict-with-guava": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "commons-chain:commons-chain@1.1": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://svn.apache.org/viewcvs.cgi"
+    },
+    "org.apache.maven.plugins:maven-resources-plugin@3.3.1": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "commons-io:commons-io@2.11.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.sonatype.plexus:plexus-build-api@0.0.7",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.commons:commons-lang3@3.12.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.jetbrains:annotations@13.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.eclipse.sisu:org.eclipse.sisu.plexus@0.9.0.M3": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "com.diffplug.spotless:spotless-maven-plugin@2.44.4": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [
+        {
+          "package": "org.eclipse.jgit:org.eclipse.jgit@6.10.0.202406032230-r",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.jetbrains:annotations@13.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "commons-codec:commons-codec@1.17.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.diffplug.durian:durian-core@1.2.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.diffplug.spotless:spotless-lib@3.1.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.diffplug.durian:durian-collect@1.2.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.tukaani:xz@1.9",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "com.diffplug.spotless:spotless-lib-extra@3.1.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.diffplug.spotless:spotless-maven-plugin@2.44.4",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.diffplug.durian:durian-io@1.2.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.eclipse.platform:org.eclipse.osgi@3.23.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "dev.equo.ide:solstice@1.8.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.apache.commons:commons-lang3@3.8.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "commons-lang:commons-lang@2.4": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://svn.apache.org/viewvc/commons/proper/lang/trunk"
+    },
+    "commons-codec:commons-codec@1.17.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "commons-logging:commons-logging@1.2": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
+    },
+    "commons-io:commons-io@2.19.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.apache.maven.doxia:doxia-decoration-model@1.11.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.junit.platform:junit-platform-engine@1.12.2": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "io.smallrye:smallrye-graphql-client-implementation-vertx@2.13.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "io.vertx:vertx-web-client@4.5.14",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "jakarta.json:jakarta.json-api@2.1.3",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.eclipse.jetty:jetty-servlet@9.4.56.v20240826": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "javax.servlet:javax.servlet-api@3.1.0": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://java.net/projects/glassfish/sources/svn/show/tags/javax.servlet-api-3.1.0"
+    },
+    "org.codehaus.plexus:plexus-i18n@1.0-beta-10": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://fisheye.codehaus.org/browse/plexus/plexus-components/tags/plexus-i18n-1.0-beta-10"
+    },
+    "com.google.code.gson:gson@2.12.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.apache.maven.doxia:doxia-site-renderer@2.0.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "org.eclipse.jetty:jetty-io@9.4.56.v20240826": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3
+    },
+    "commons-collections:commons-collections@3.2.2": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "http://svn.apache.org/viewvc/commons/proper/collections/trunk"
+    },
+    "org.ow2.asm:asm@9.7.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 3,
+      "non_github_url": "https://gitlab.ow2.org/asm/asm/"
+    },
+    "com.diffplug.spotless:spotless-lib@3.1.1": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "org.bouncycastle:bcpkix-jdk18on@1.80": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2
+    },
+    "com.google.code.findbugs:jsr305@3.0.2": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 2,
+      "non_github_url": "https://code.google.com/p/jsr-305/"
+    },
+    "io.quarkus:quarkus-bootstrap-runner@3.17.7": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "io.github.crac:org-crac@0.1.3",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.slf4j:slf4j-api@1.5.6": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.slf4j.org/viewvc/slf4j/trunk/slf4j-api/"
+    },
+    "org.codehaus.plexus:plexus-interactivity-jline@1.0-alpha-5": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "scm:svn:svn://svn.codehaus.org/plexus/scm/trunk/plexus-components/plexus-interactivity/plexus-interactivity-jline/"
+    },
+    "org.ow2.asm:asm-commons@9.7.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [
+        {
+          "package": "org.ow2.asm:asm-tree@9.7.1",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "https://gitlab.ow2.org/asm/asm/"
+    },
+    "org.apache.jackrabbit:jackrabbit-jcr-commons@1.5.0": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/jackrabbit/trunk/jackrabbit-jcr-commons"
+    },
+    "org.apache.maven:maven-plugin-api@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-plugin-api"
+    },
+    "io.quarkus.platform:quarkus-maven-plugin@3.17.7": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.jdom:jdom2@2.0.6.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.commons:commons-collections4@4.4",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.twdata.maven:mojo-executor@2.4.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.commons:commons-compress@1.27.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "io.vertx:vertx-auth-common@4.5.11": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.maven:maven-repository-metadata@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-repository-metadata"
+    },
+    "com.google.guava:guava@33.3.1-jre": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.codehaus.gmavenplus:gmavenplus-plugin@4.1.1": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.apache.ivy:ivy@2.5.2",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.ant:ant@1.10.15",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "commons-io:commons-io@2.14.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.apache.ant:ant-launcher@1.10.15",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.18.2": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.yaml:snakeyaml@2.3",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "io.smallrye:smallrye-graphql-client-implementation-vertx@2.11.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "jakarta.json:jakarta.json-api@2.1.3",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "io.vertx:vertx-web-client@4.5.11",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.maven.wagon:wagon-http@1.0-beta-6": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/wagon/tags/wagon-1.0-beta-6/wagon-providers/wagon-http"
+    },
+    "org.codehaus.plexus:plexus-interactivity-api@1.0-alpha-4": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "scm:svn:svn://svn.codehaus.org/plexus/scm/trunk/plexus-components/plexus-interactivity/plexus-interactivity-api"
+    },
+    "classworlds:classworlds@1.1": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://cvs.classworlds.codehaus.org/"
+    },
+    "org.apache.commons:commons-compress@1.8.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/repos/asf/commons/proper/compress/tags/COMPRESS-1.8.1"
+    },
+    "org.kohsuke:github-api@1.322": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.apache.commons:commons-lang3@3.17.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.maven.wagon:wagon-ssh@1.0-beta-6": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/wagon/tags/wagon-1.0-beta-6/wagon-providers/wagon-ssh"
+    },
+    "org.junit.jupiter:junit-jupiter-engine@5.10.5": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.junit.platform:junit-platform-engine@1.10.5",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.maven:maven-plugin-registry@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-plugin-registry"
+    },
+    "backport-util-concurrent:backport-util-concurrent@3.1": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "svn://dcl.mathcs.emory.edu/software/harness2/trunk/util/backport-util-concurrent/"
+    },
+    "nekohtml:nekohtml@1.9.6.2": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://nekohtml.svn.sourceforge.net/viewvc/nekohtml/"
+    },
+    "org.ow2.asm:asm-analysis@9.7.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "https://gitlab.ow2.org/asm/asm/"
+    },
+    "org.jboss.logmanager:jboss-logmanager@3.1.1.Final": {
+      "direct_smells": [
+        "no_code_signature"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "io.vertx:vertx-web-common@4.5.11": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.eclipse.core:resources@3.3.0-v20070604": {
+      "direct_smells": [
+        "no_code_signature",
+        "no_source_code_url"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.junit.platform:junit-platform-engine@1.10.5": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.maven:maven-model@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-model"
+    },
+    "org.apache.maven:maven-artifact@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-artifact"
+    },
+    "org.apache.maven:maven-plugin-descriptor@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-plugin-descriptor"
+    },
+    "org.codehaus.plexus:plexus-interpolation@1.11": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://fisheye.codehaus.org/browse/plexus/plexus-components/tags/plexus-interpolation-1.11"
+    },
+    "org.apache.maven.doxia:doxia-sink-api@1.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia/tags/doxia-1.1/doxia-sink-api"
+    },
+    "org.apache.maven.doxia:doxia-logging-api@1.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewcvs.cgi/maven/doxia/doxia/tags/doxia-1.1/doxia-logging-api"
+    },
+    "org.codehaus.plexus:plexus-container-default@1.0-alpha-9-stable-1": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "scm:svn:svn://svn.codehaus.org/plexus/scm/trunk/plexus-containers/plexus-container-default/"
+    },
+    "org.ow2.asm:asm@9.6": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "https://gitlab.ow2.org/asm/asm/"
+    },
+    "org.apache.maven:maven-profile@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-profile"
+    },
+    "org.apache.maven.plugins:maven-failsafe-plugin@3.5.2": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.ow2.asm:asm@9.7",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "io.quarkus:quarkus-bootstrap-maven-resolver@3.17.7": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.eclipse.sisu:org.eclipse.sisu.plexus@0.9.0.M3",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "io.vertx:vertx-web-client@4.5.11": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [
+        {
+          "package": "io.vertx:vertx-web-common@4.5.11",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "io.vertx:vertx-auth-common@4.5.11",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "io.vertx:vertx-uri-template@4.5.11",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.maven.wagon:wagon-file@1.0-beta-6": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/wagon/tags/wagon-1.0-beta-6/wagon-providers/wagon-file"
+    },
+    "org.apache.maven:maven-error-diagnostics@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-error-diagnostics"
+    },
+    "org.apache.maven.wagon:wagon-provider-api@2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/wagon/tags/wagon-2.1/wagon-provider-api"
+    },
+    "commons-cli:commons-cli@1.2": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/commons/proper/cli/branches/cli-1.x/"
+    },
+    "org.apache.maven.wagon:wagon-http-shared@1.0-beta-6": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/wagon/tags/wagon-1.0-beta-6/wagon-providers/wagon-http-shared"
+    },
+    "org.apache.maven.wagon:wagon-ssh-external@1.0-beta-6": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/wagon/tags/wagon-1.0-beta-6/wagon-providers/wagon-ssh-external"
+    },
+    "io.quarkus.arc:arc@3.17.7": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.jboss.logging:jboss-logging@3.6.1.Final",
+          "smells": [
+            "no_code_signature"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "io.quarkus:quarkus-core-deployment@3.17.7": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.aesh:readline@2.6",
+          "smells": [
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "org.ow2.asm:asm@9.7.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.ow2.asm:asm-commons@9.7.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.aesh:aesh@2.8.2",
+          "smells": [
+            "inaccessible_commit_sha",
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "org.junit.platform:junit-platform-launcher@1.10.5",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "com.diffplug.spotless:spotless-lib@3.1.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.ivy:ivy@2.5.2": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "https://svn.apache.org/repos/asf/ant/ivy/core/trunk"
+    },
+    "org.ow2.asm:asm-util@9.7.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [
+        {
+          "package": "org.ow2.asm:asm-analysis@9.7.1",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "https://gitlab.ow2.org/asm/asm/"
+    },
+    "org.jboss.marshalling:jboss-marshalling@2.2.1.Final": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.slf4j:slf4j-jdk14@1.5.6": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.slf4j.org/viewvc/slf4j/trunk/slf4j-jdk14/"
+    },
+    "org.apache.maven.reporting:maven-reporting-api@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-reporting/maven-reporting-api"
+    },
+    "org.junit.platform:junit-platform-launcher@1.10.5": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "io.quarkus:quarkus-junit5@3.17.7": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.eclipse.sisu:org.eclipse.sisu.inject@0.9.0.M3",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.jboss.marshalling:jboss-marshalling@2.2.1.Final",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "nekohtml:xercesMinimal@1.9.6.2": {
+      "direct_smells": [
+        "no_code_signature",
+        "no_source_code_url"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "io.quarkus:quarkus-test-common@3.17.7": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "commons-io:commons-io@2.17.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.jboss.logging:commons-logging-jboss-logging@1.0.0.Final",
+          "smells": [
+            "no_code_signature"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.maven:maven-core@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-core"
+    },
+    "biz.aQute:bndlib@0.0.145": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://www.aQute.biz/Code/Bnd"
+    },
+    "commons-io:commons-io@2.14.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "com.diffplug.spotless:spotless-lib-extra@3.1.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.maven:maven-settings@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-settings"
+    },
+    "junit:junit@3.8.1": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://junit.cvs.sourceforge.net/junit/"
+    },
+    "org.slf4j:slf4j-nop@1.5.3": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.slf4j.org/viewvc/slf4j/trunk/slf4j-nop/"
+    },
+    "org.apache.maven.plugins:maven-eclipse-plugin@2.10": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [
+        {
+          "package": "nekohtml:xercesMinimal@1.9.6.2",
+          "smells": [
+            "no_code_signature",
+            "no_source_code_url"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-artifact@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-plugin-descriptor@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-archiver@2.5",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.codehaus.plexus:plexus-interpolation@1.11",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.slf4j:slf4j-api@1.5.6",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.doxia:doxia-sink-api@1.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.codehaus.plexus:plexus-interactivity-jline@1.0-alpha-5",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-core@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "biz.aQute:bndlib@0.0.145",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-artifact-manager@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.jackrabbit:jackrabbit-jcr-commons@1.5.0",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.doxia:doxia-logging-api@1.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-plugin-api@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.codehaus.plexus:plexus-container-default@1.0-alpha-9-stable-1",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-repository-metadata@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-profile@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.wagon:wagon-webdav-jackrabbit@1.0-beta-6",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-settings@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.wagon:wagon-file@1.0-beta-6",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "commons-httpclient:commons-httpclient@3.0",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.wagon:wagon-http@1.0-beta-6",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-error-diagnostics@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.codehaus.plexus:plexus-interactivity-api@1.0-alpha-4",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "junit:junit@3.8.1",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.slf4j:slf4j-nop@1.5.3",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "classworlds:classworlds@1.1",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "com.jcraft:jsch@0.1.38",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.plugins:maven-eclipse-plugin@2.10",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.wagon:wagon-ssh-common@1.0-beta-6",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.commons:commons-compress@1.8.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-monitor@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.wagon:wagon-ssh@1.0-beta-6",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.wagon:wagon-provider-api@2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.jackrabbit:jackrabbit-webdav@1.5.0",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.sonatype.plexus:plexus-cipher@1.4",
+          "smells": [
+            "no_source_code_url"
+          ]
+        },
+        {
+          "package": "org.sonatype.plexus:plexus-sec-dispatcher@1.3",
+          "smells": [
+            "no_source_code_url"
+          ]
+        },
+        {
+          "package": "commons-cli:commons-cli@1.2",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "jline:jline@0.9.1",
+          "smells": [
+            "no_code_signature",
+            "no_source_code_url"
+          ]
+        },
+        {
+          "package": "org.slf4j:jcl-over-slf4j@1.5.6",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-plugin-parameter-documenter@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-plugin-registry@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "backport-util-concurrent:backport-util-concurrent@3.1",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.wagon:wagon-http-shared@1.0-beta-6",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "nekohtml:nekohtml@1.9.6.2",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.wagon:wagon-ssh-external@1.0-beta-6",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.eclipse.core:resources@3.3.0-v20070604",
+          "smells": [
+            "no_code_signature",
+            "no_source_code_url"
+          ]
+        },
+        {
+          "package": "commons-codec:commons-codec@1.2",
+          "smells": [
+            "no_code_signature",
+            "no_source_code_url"
+          ]
+        },
+        {
+          "package": "org.codehaus.plexus:plexus-resources@1.0-alpha-7",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "commons-io:commons-io@2.2",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.wagon:wagon-http-lightweight@1.0-beta-6",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.shared:maven-osgi@0.2.0",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.reporting:maven-reporting-api@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.slf4j:slf4j-jdk14@1.5.6",
+          "smells": [
+            "no_code_signature",
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-model@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven:maven-project@2.2.1",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/plugins/tags/maven-eclipse-plugin-2.10"
+    },
+    "io.quarkus.gizmo:gizmo@1.8.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.ow2.asm:asm-util@9.7.1",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "commons-io:commons-io@2.17.0": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.jackrabbit:jackrabbit-webdav@1.5.0": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/jackrabbit/trunk/jackrabbit-webdav"
+    },
+    "jline:jline@0.9.1": {
+      "direct_smells": [
+        "no_code_signature",
+        "no_source_code_url"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.slf4j:jcl-over-slf4j@1.5.6": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.slf4j.org/viewvc/slf4j/trunk/jcl-over-slf4j/"
+    },
+    "org.jboss.logging:jboss-logging-annotations@3.0.2.Final": {
+      "direct_smells": [
+        "no_code_signature"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "commons-codec:commons-codec@1.2": {
+      "direct_smells": [
+        "no_code_signature",
+        "no_source_code_url"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.maven.wagon:wagon-http-lightweight@1.0-beta-6": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/wagon/tags/wagon-1.0-beta-6/wagon-providers/wagon-http-lightweight"
+    },
+    "org.eclipse.platform:org.eclipse.osgi@3.18.500": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "io.quarkus:quarkus-core@3.17.7": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.jboss.logging:jboss-logging-annotations@3.0.2.Final",
+          "smells": [
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "org.jboss.logmanager:jboss-logmanager@3.1.1.Final",
+          "smells": [
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "org.jboss.threads:jboss-threads@3.8.0.Final",
+          "smells": [
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "org.jboss.slf4j:slf4j-jboss-logmanager@2.0.0.Final",
+          "smells": [
+            "inaccessible_commit_sha",
+            "no_code_signature"
+          ]
+        },
+        {
+          "package": "org.wildfly.common:wildfly-common@1.7.0.Final",
+          "smells": [
+            "no_code_signature"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.junit.jupiter:junit-jupiter-api@5.10.5": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "org.junit.platform:junit-platform-commons@1.10.5",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.maven:maven-archiver@2.5": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/shared/tags/maven-archiver-2.5"
+    },
+    "org.junit.platform:junit-platform-commons@1.10.5": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.maven:maven-artifact-manager@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-artifact-manager"
+    },
+    "org.wildfly.common:wildfly-common@1.7.0.Final": {
+      "direct_smells": [
+        "no_code_signature"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.ow2.asm:asm-tree@9.7.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "https://gitlab.ow2.org/asm/asm/"
+    },
+    "org.apache.maven.wagon:wagon-webdav-jackrabbit@1.0-beta-6": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/wagon/tags/wagon-1.0-beta-6/wagon-providers/wagon-webdav-jackrabbit"
+    },
+    "commons-httpclient:commons-httpclient@3.0": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/repos/asf/jakarta/commons/proper/${pom.artifactId.substring(8)}/trunk"
+    },
+    "org.apache.maven.wagon:wagon-ssh-common@1.0-beta-6": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/wagon/tags/wagon-1.0-beta-6/wagon-providers/wagon-ssh-common"
+    },
+    "io.vertx:vertx-uri-template@4.5.11": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "com.jcraft:jsch@0.1.38": {
+      "direct_smells": [
+        "no_code_signature",
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://www.jcraft.com/jsch/"
+    },
+    "org.apache.maven:maven-monitor@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-monitor"
+    },
+    "org.apache.maven.plugins:maven-compiler-plugin@3.13.0": {
+      "direct_smells": [],
+      "tainted_children": [
+        {
+          "package": "commons-io:commons-io@2.11.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.ow2.asm:asm@9.6",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "org.apache.maven.shared:maven-shared-incremental@1.1",
+          "smells": [
+            "other_info"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.apache.maven:maven-plugin-parameter-documenter@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-plugin-parameter-documenter"
+    },
+    "com.diffplug.spotless:spotless-maven-plugin@2.44.3": {
+      "direct_smells": [
+        "inaccessible_commit_sha"
+      ],
+      "tainted_children": [
+        {
+          "package": "org.eclipse.platform:org.eclipse.osgi@3.18.500",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.diffplug.spotless:spotless-maven-plugin@2.44.3",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.diffplug.spotless:spotless-lib@3.1.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.eclipse.jgit:org.eclipse.jgit@6.10.0.202406032230-r",
+          "smells": [
+            "other_info"
+          ]
+        },
+        {
+          "package": "com.diffplug.spotless:spotless-lib-extra@3.1.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "org.jetbrains:annotations@13.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.diffplug.durian:durian-core@1.2.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.diffplug.durian:durian-collect@1.2.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "com.diffplug.durian:durian-io@1.2.0",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        },
+        {
+          "package": "dev.equo.ide:solstice@1.8.1",
+          "smells": [
+            "inaccessible_commit_sha"
+          ]
+        }
+      ],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1
+    },
+    "org.codehaus.plexus:plexus-resources@1.0-alpha-7": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://fisheye.codehaus.org/browse/plexus/plexus-components/tags/plexus-resources-1.0-alpha-7"
+    },
+    "commons-io:commons-io@2.2": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/commons/proper/io/trunk"
+    },
+    "org.apache.maven.shared:maven-osgi@0.2.0": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewcvs.cgi/maven/shared/tags/maven-osgi-0.2.0"
+    },
+    "org.apache.maven:maven-project@2.2.1": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "http://svn.apache.org/viewvc/maven/maven-2/tags/maven-2.2.1/maven-project"
+    },
+    "org.yaml:snakeyaml@2.3": {
+      "direct_smells": [
+        "other_info"
+      ],
+      "tainted_children": [],
+      "projects": [
+        "chains-project/maven-lockfile"
+      ],
+      "occurrence_count": 1,
+      "non_github_url": "https://bitbucket.org/snakeyaml/snakeyaml/src"
+    }
+  }
+}

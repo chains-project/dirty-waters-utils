@@ -7,7 +7,6 @@ exceptiongroup==1.2.2
 GitPython==3.1.44
 idna==3.10
 markdown-it-py==3.0.0
-numpy==2.2.4
 pandas==2.2.3
 platformdirs==4.3.7
 PyGithub==2.6.1
@@ -27,3 +26,11 @@ url-normalize==1.4.3
 urllib3==2.3.0
 xmltodict==0.14.2
 webdriver-manager==4.0.2
+openpyxl==3.1.5
+numpy
+scipy
+seaborn
+scikit-learn
+jupyter
+matplotlib
+notebook

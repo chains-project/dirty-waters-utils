@@ -20,6 +20,6 @@
 
     in
     {
-      devShells.x86_64-linux.default = pkgs.mkShell { packages = [ pythonEnv pkgs.maven pkgs.yarn pkgs.pnpm pkgs.act ]; };
+      devShells.x86_64-linux.default = pkgs.mkShell { packages = [ pythonEnv pkgs.maven pkgs.yarn pkgs.pnpm pkgs.act pkgs.azure-functions-core-tools ]; };
     };
 }
