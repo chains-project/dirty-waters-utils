@@ -78,7 +78,7 @@ def get_package_list(pm):
   match pm:
     case "npm":
       # Get the top 1000 most depended-upon packages from npm
-      # return parse_npm_from_gist()
+      #return parse_npm_from_gist()
       return parse_npm_from_npm_rank()
     case "maven":
       return parse_mvn_from_central()
@@ -161,13 +161,14 @@ def get_first_n_with_github_scm(pm, n=50):
 if __name__ == "__main__":
   n = 50
   for pm in ["npm", "maven"]:
+  #for pm in ["npm"]:
     print(f"Getting top {n} packages for {pm} with github scm")
     packages = get_first_n_with_github_scm(pm, n=n)
     for package, version, dependents, url in packages:
-      print(f"{package}@{version} ({dependents} dependents) - {url}")
+      print(f"{package}@{version} - {url}")
     
     # Also pasting into file titled {pm}-top-25.txt
     with open(f"popular-projects/{pm}-top-{n}.txt", "w") as f:
       for package, version, dependents, url in packages:
-        f.write(f"{package}@{version} ({dependents} dependents) - {url}\n")
+        f.write(f"{package}@{version} - {url}\n")
     print(f"Saved top {n} packages for {pm} with github scm to {pm}-top-{n}.txt")
