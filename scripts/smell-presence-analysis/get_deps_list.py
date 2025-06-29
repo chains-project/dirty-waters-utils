@@ -3,15 +3,10 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent / "results"
 print(f"Base directory: {BASE_DIR}")
-DEPS_FILES = list(BASE_DIR.glob("runs/*/*/sscs/*/deps_list.json"))
-
-# Sort paths to ensure consistent file ordering
-DEPS_FILES.sort()
-
-# Sanity check
-if len(DEPS_FILES) < 81:
-    raise ValueError(f"Expected at least 81 deps_list.json files, found {len(DEPS_FILES)}.")
-print(f"Found {len(DEPS_FILES)} deps_list.json files.")
+get_deps_files = lambda pm: [
+    p for p in BASE_DIR.glob(f"runs/{pm}-runs/*/sscs/*/*.json")
+    if p.parent.parent.name == "sscs"
+]
 
 # Helper function to load unique strings from deps_list.json
 def load_deps(files):
@@ -19,15 +14,15 @@ def load_deps(files):
     for path in files:
         with path.open() as f:
             data = json.load(f)
-            if not isinstance(data, list) or not all(isinstance(x, str) for x in data):
-                raise ValueError(f"Invalid JSON format in: {path}")
-            for dep in data:
+            for dep in data.keys():
                 deps[dep] = deps.get(dep, 0) + 1
     return deps
 
 # Split the files
-npm_files = DEPS_FILES[:42]
-maven_files = DEPS_FILES[42:]
+npm_files = get_deps_files("npm")
+maven_files = get_deps_files("maven")
+print(len(npm_files), "npm files found.")
+print(len(maven_files), "maven files found.")
 
 # Load sets
 npm_deps = load_deps(npm_files)
